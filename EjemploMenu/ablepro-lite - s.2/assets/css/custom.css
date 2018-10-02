@@ -1,0 +1,163 @@
+@font-face {
+    font-family: 'gotham-regular';
+    src: local('gotham'),
+         url("../fonts/GothamLightRegular.otf") format('embedded-opentype');
+        
+    font-weight: normal;
+    font-style: normal;
+    unicode-range: "U+0-10FFFF";
+}
+
+body{
+    background: #fff;
+}
+
+.main-header-top>.navbar {
+
+    background-color: #EB0029;
+    background-image: url("../images/grecas.png")
+}
+
+.main-header-top {
+    background-color: #EB0029;
+    background-image: url("../images/grecas.png")
+}
+
+.main-sidebar {
+    background: #f7f7f7;
+    color: #fff;
+}
+
+.sidebar-menu>li>a {
+    padding: 12px 5px 12px 15px;
+    display: block;
+    position: relative;
+    font-size: 14px;
+    background: #f7f7f7;
+    color: rgb(49, 49, 49);
+}
+
+.sidebar-menu>li.active>a {
+    color: #fff;
+    font-weight: 600;
+    background: #FF671B;
+}
+
+.sidebar-menu .treeview-menu > li.active > a {
+    color: #9A3820;
+    font-weight: bold;
+}
+
+
+.sidebar-menu .treeview-menu .treeview-menu li a {
+    padding-left: 35px;
+}
+
+.sidebar .user-panel {
+background-image: none;
+background-color: #f7f7f7;
+}
+
+.main-header {
+    background:  #7F7F7F;
+    color: #fff;
+}
+
+.main-header .breadcrumb-title a {
+    font-size: 16px;
+    color: #fff;
+}
+
+.sidebar-menu .treeview-menu {
+    margin: 0 1px;
+    background: #e4e4e4;
+}
+
+/*media queries*/
+
+.sidebar-mini.sidebar-collapse .content-wrapper, .sidebar-mini.sidebar-collapse .main-footer {
+background: #fff
+}
+
+ .btn-action{
+    height: 34px;
+    width: 36px;
+    border-radius: 45px;
+    background: #f7f7f7
+}
+
+.btn-sm {
+    padding: 6px 12px;
+    line-height: 16px;
+    font-size: 11px;
+}
+
+.btn-borrar:hover{
+    background: #f10000;
+    color: #fff
+}
+
+.btn-alta:hover{
+    background: rgb(10, 180, 24);
+    color: #fff
+}
+
+.btn-baja:hover{
+    background: #FF671B;
+    color: #fff
+}
+
+.btn-primary, .btn-primary:focus, .btn-primary:active {
+    background-color: #f10000 !important;
+    border-color: #f10000 !important;
+}
+
+.btn-primary:hover {
+    background-color: #FF671B !important;
+    border-color: #FF671B !important;
+}
+
+table.table-bordered.dataTable tbody th, table.table-bordered.dataTable tbody td {
+  
+    font-size: .8rem;
+}
+
+table.table-bordered.dataTable tbody td {
+    border-bottom-width: 0;
+    height: 10px;
+    padding: 3px;
+}
+
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+    background: #856C73;
+    color: #fff
+}
+
+.main-header {
+    padding: 10px 0 20px 20px;
+}
+
+.page-link {
+
+    color: #4E4044;
+}
+
+.page-item.active .page-link, .page-item.active .page-link:focus, .page-item.active .page-link:hover {
+
+    background-color: #4E4044;
+    border-color: #4E4044;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+  
+    color: #fff;
+    
+}
+
+.main-header .breadcrumb-title .breadcrumb-item:last-child a {
+    color: #fff;
+}

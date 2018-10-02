@@ -1,0 +1,19 @@
+li.nav-item.dropdown {
+    margin-left: 20px;
+    margin-right: 20px
+}
+
+@media (min-width: 992px)
+body {
+    padding-top: 0px;
+}
+
+body {
+    padding-top: 0px;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #fffb;
+    text-decoration: none;
+    background-color: #ff0000;
+}
