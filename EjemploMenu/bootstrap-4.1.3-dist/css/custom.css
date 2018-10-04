@@ -1,0 +1,132 @@
+@font-face {
+    font-family: "Gotham-light";
+    src: url(../fonts) format("opentype");
+}
+
+@font-face {
+    font-family: "Gotham_bold";
+    src: url(../fonts/goth-font/GothamBold.ttf) format("truetype");
+    src: url(../fonts/goth-font/Gotham-Bold.otf) format("opentype");
+}
+
+@font-face {    
+    font-family: "Gotham";
+    
+    src: url(../fonts/goth-font/GothamBook.ttf) format("opentype");
+}
+
+body{
+    font-family: "Gotham";
+}
+
+.navbar {
+    background: #F70000;
+    background-image: url(../img/grecas.png);
+    background-position: top;
+    background-repeat: repeat-x;
+    color: #fff;
+}
+
+.bg-danger {
+    background-color: #F70000 !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255);
+    
+}
+
+nav.nav.nav-underline {
+    background: #f7f7f7;
+    font-size: .9rem;
+  
+}
+
+nav.nav.nav-underline a{
+    color: #000;
+  
+}
+
+.acceso-info {
+    font-size: .7rem;
+}
+
+.contenedor{
+    background-image: url("../img/grecas-gris.jpg");
+    background-repeat: repeat-x;
+   
+}
+
+.breadcrumb {
+
+    background-color: transparent;
+    font-size: .9rem;
+    font-weight: 700;
+
+}
+
+a{
+    color: #F70000;
+    font-size: .9rem;
+}
+
+.titulo{
+    color: #F70000;
+    font-weight: 700;
+}
+
+tr {
+    font-size: .8rem;
+}
+
+.btn-action {
+    height: 34px;
+    width: 36px;
+    border-radius: 45px;
+    background: #f7f7f7;
+    box-shadow:1px 1px 10px rgb(196, 196, 196);
+}
+
+.btn-alta:hover{
+    background: green;
+    color: #fff;
+}
+
+.btn-borrar:hover{
+    background: red;
+    color: #fff;
+}
+
+.btn-baja:hover{
+    background: rgb(218, 131, 0);
+    color: #fff;
+}
+
+th {
+    background: #DDDDDD;
+}
+
+.pagination-info{
+    font-size: .8rem;
+}
+
+.page-link{
+    color: #F70000
+}
+
+.page-link:hover {
+    background: #F70000;
+    color: #fff
+}
+
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #F70000;
+    border-color: #F70000;
+}
+
+.btn-danger{
+    background: #F70000;
+    color: #fff;
+}
