@@ -47,7 +47,7 @@ nav.nav.nav-underline {
   
 }
 .main-title{
-    font-size: .9rem;
+    font-size: .99rem;
 }
 
 nav.nav.nav-underline a{
@@ -68,9 +68,18 @@ nav.nav.nav-underline a{
 .breadcrumb {
 
     background-color: transparent;
-    font-size: .9rem;
+    font-size: .8rem;
     font-weight: 700;
 
+}
+
+.breadcrumb-item a {
+    font-size: .8rem;
+}
+
+.admin-title{
+    font-size: .8rem;
+    margin: 0px;
 }
 
 a{
