@@ -17,6 +17,7 @@
 
 body{
     font-family: "Gotham";
+    background:#FBFBFB;
 }
 
 .navbar {
@@ -52,8 +53,10 @@ nav.nav.nav-underline a{
 }
 
 .contenedor{
-    background-image: url("../img/grecas-gris.jpg");
+    background: #FBFBFB;
+    background-image: url("../img/grecas-gris.png");
     background-repeat: repeat-x;
+    min-height: 400px;
    
 }
 
@@ -129,4 +132,17 @@ th {
 .btn-danger{
     background: #F70000;
     color: #fff;
+}
+label {
+    font-weight: 700;
+    font-size: .8rem;
+}
+
+.card-header.tab-header {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-top: -30px;
+    border-radius: 5px;
+   
+    
 }
