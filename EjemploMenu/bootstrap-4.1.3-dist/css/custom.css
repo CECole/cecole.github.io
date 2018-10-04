@@ -18,6 +18,10 @@
 body{
     font-family: "Gotham";
     background:#FBFBFB;
+    background: #FBFBFB;
+    background-image: url("../img/grecas-gris.png");
+    background-repeat: repeat-x;
+    background-position: top;
 }
 
 .navbar {
@@ -53,10 +57,7 @@ nav.nav.nav-underline a{
 }
 
 .contenedor{
-    background: #FBFBFB;
-    background-image: url("../img/grecas-gris.png");
-    background-repeat: repeat-x;
-    background-position: top;
+
     min-height: 400px;
    
 }
@@ -84,11 +85,12 @@ tr {
 }
 
 .btn-action {
-    height: 34px;
-    width: 36px;
+    height: 24px;
+    width: 26px;
     border-radius: 45px;
     background: #f7f7f7;
     box-shadow:1px 1px 10px rgb(196, 196, 196);
+    font-size: .6rem
 }
 
 .btn-alta:hover{
@@ -146,4 +148,9 @@ label {
     border-radius: 5px;
    
     
+}
+
+.table thead th {
+
+    border-right: 2px solid #fff;
 }
