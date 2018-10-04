@@ -28,7 +28,7 @@
     <nav class="navbar navbar-dark sticky-top  flex-md-nowrap p-0">
         <div class="container">
             <a class="navbar-brand col-sm-3 col-md-2 mr-0 ml-2" href="#"><img src="img/logo-bn.png" alt=""></a>
-            <span class="main-title mr-5"><b>Sistema Integral de Almacenadora Banorte</b></span>
+            <span class="mr-5 main-title" ><b>Sistema Integral de Almacenadora Banorte</b></span>
             <ul class="navbar-nav px-1">
                 <li class="nav-item text-nowrap">
                     <a class="nav-link" href="#"><i class="fas fa-sign-out-alt"></i></a>
@@ -167,190 +167,58 @@
             <!--Breadcrum-->
             <div class="col-9">
                 <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb pt-0">
-                        <li class="breadcrumb-item"><a href="#">Inicio</a></li>
+                    <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="#">Catálogos</a></li>
                         <li class="breadcrumb-item active" aria-current="page">Administración de Sistemas</li>
                     </ol>
                 </nav>
 
-                <div class="card mt-5">
-                    <div class="card-header tab-header bg-danger text-white pb-0">
-                        <h5 class="">Catálogo de Perfiles</h5>
-                        <p style="margin-bottom:10px">Registro</p>
-                    </div>
-                    <div class="card-body">
-                        <div class=" mb-3 d-flex justify-content-end">
-                            <a href="campos.html" class="btn btn-sm btn-danger mr-4" role="button"><i class="fas fa-plus"></i>
-                                Agregar</a>
+                <div class="card mt-5 ">
+                        <div class="card-header tab-header bg-danger text-white pb-0">
+                            <h5 class="">Catálogo de Perfiles</h5>
+                            <p style="margin-bottom:10px">Registro</p>
                         </div>
-                        <!--table-->
-                        <div class="row">
-
-                            <div class="col-sm-12">
-                                <table id="example" class="table table-sm   table-hover nowrap dataTable no-footer dtr-inline collapsed ui-selectable"
-                                    style="width: 100%; text-align: center" role="grid" aria-describedby="example_info">
-                                    <thead>
-                                        <tr role="row" class="ui-selectee">
-
-
-                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
-                                                style="width: 2px; text-align: center" aria-label="Last name: activate to sort column ascending">Acciones
-                                            </th>
-                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
-                                                style="width: 1px; text-align: center" aria-label="Last name: activate to sort column ascending">Número
-                                            </th>
-                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
-                                                style="width: 177px; text-align: center" aria-label="Position: activate to sort column ascending">Descripción</th>
-                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
-                                                style="width: 80px; text-align: center" aria-label="Office: activate to sort column ascending">Abreviatura</th>
-                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
-                                                style="width: 29px; text-align: center" aria-label="Age: activate to sort column ascending">Estatus</th>
-
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-
-
-                                        <tr role="row" class="odd ui-selectee">
-
-                                            <td><button class="btn btn-action btn-alta btn-sm"><i class="fas fa-check"></i></button>
-                                                <button class="btn btn-action btn-borrar btn-sm"><i class="fas fa-trash-alt"></i></button></td>
-                                            <td><a href="#">1</a></td>
-
-                                            <td>Gerente de Comercialización Directa y Logística B</td>
-                                            <td>GTE. COM. DIR</td>
-                                            <td>Vigente</td>
-
-                                        </tr>
-                                        <tr role="row" class="odd ui-selectee">
-                                            <td><button class="btn btn-action btn-alta btn-sm"><i class="fas fa-check"></i></button>
-                                                <button class="btn btn-action btn-borrar btn-sm"><i class="fas fa-trash-alt"></i></button></td>
-                                            <td><a href="#">2</a></td>
-
-                                            <td>Gerente de Comercialización Directa y Logística B</td>
-                                            <td>GTE. COM. DIR</td>
-                                            <td>Vigente</td>
-
-                                        </tr>
-                                        <tr role="row" class="odd ui-selectee">
-                                            <td><button class="btn btn-action btn-alta btn-sm"><i class="fas fa-check"></i></button>
-                                                <button class="btn btn-action btn-borrar btn-sm"><i class="fas fa-trash-alt"></i></button></td>
-                                            <td><a href="#">3</a></td>
-
-                                            <td>Gerente de Comercialización Directa y Logística B</td>
-                                            <td>GTE. COM. DIR</td>
-                                            <td>Vigente</td>
-
-                                        </tr>
-                                        <tr role="row" class="odd ui-selectee">
-                                            <td><button class="btn btn-action btn-baja btn-sm"><i class="fas fa-level-down-alt"></i></button>
-                                                <button class="btn btn-action btn-borrar btn-sm"><i class="fas fa-trash-alt"></i></button></td>
-                                            <td><a href="#">4</a></td>
-
-                                            <td>Gerente de Comercialización Directa y Logística B</td>
-                                            <td>GTE. COM. DIR</td>
-                                            <td>Vigente</td>
-
-                                        </tr>
-                                        <tr role="row" class="odd ui-selectee">
-                                            <td><button class="btn btn-action btn-alta btn-sm"><i class="fas fa-check"></i></button>
-                                                <button class="btn btn-action btn-borrar btn-sm"><i class="fas fa-trash-alt"></i></button></td>
-                                            <td><a href="#">5</a></td>
-
-                                            <td>Gerente de Comercialización Directa y Logística B</td>
-                                            <td>GTE. COM. DIR</td>
-                                            <td>Vigente</td>
-
-                                        </tr>
-                                        <tr role="row" class="odd ui-selectee">
-                                            <td><button class="btn btn-action btn-alta btn-sm"><i class="fas fa-check"></i></button>
-                                                <button class="btn btn-action btn-borrar btn-sm"><i class="fas fa-trash-alt"></i></button></td>
-                                            <td><a href="#">6</a></td>
-
-                                            <td>Gerente de Comercialización Directa y Logística B</td>
-                                            <td>GTE. COM. DIR</td>
-                                            <td>Vigente</td>
-
-                                        </tr>
-                                        <tr role="row" class="odd ui-selectee">
-                                            <td><button class="btn btn-action btn-baja btn-sm"><i class="fas fa-level-down-alt"></i></button>
-                                                <button class="btn btn-action btn-borrar btn-sm"><i class="fas fa-trash-alt"></i></button></td>
-                                            <td><a href="#">7</a></td>
-
-                                            <td>Gerente de Comercialización Directa y Logística B</td>
-                                            <td>GTE. COM. DIR</td>
-                                            <td>Vigente</td>
-
-                                        </tr>
-                                        <tr role="row" class="odd ui-selectee">
-                                            <td><button class="btn btn-action btn-baja btn-sm"><i class="fas fa-level-down-alt"></i></button>
-                                                <button class="btn btn-action btn-borrar btn-sm"><i class="fas fa-trash-alt"></i></button></td>
-                                            <td><a href="#">8</a></td>
-
-                                            <td>Gerente de Comercialización Directa y Logística B</td>
-                                            <td>GTE. COM. DIR</td>
-                                            <td>Vigente</td>
-
-                                        </tr>
-                                        <tr role="row" class="odd ui-selectee">
-                                            <td><button class="btn btn-action btn-alta btn-sm"><i class="fas fa-check"></i></button>
-                                                <button class="btn btn-action btn-borrar btn-sm"><i class="fas fa-trash-alt"></i></button></td>
-                                            <td><a href="#">9</a></td>
-
-                                            <td>Gerente de Comercialización Directa y Logística B</td>
-                                            <td>GTE. COM. DIR</td>
-                                            <td>Vigente</td>
-
-                                        </tr>
-                                        <tr role="row" class="odd ui-selectee">
-                                            <td><button class="btn btn-action btn-baja btn-sm"><i class="fas fa-level-down-alt"></i></button>
-                                                <button class="btn btn-action btn-borrar btn-sm"><i class="fas fa-trash-alt"></i></button></td>
-                                            <td><a href="#">10</a></td>
-
-                                            <td>Gerente de Comercialización Directa y Logística B</td>
-                                            <td>GTE. COM. DIR</td>
-                                            <td>Vigente</td>
-
-                                        </tr>
-
-
-
-
-
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-
-                        <!--Paginador-->
-                        <div class="row">
-
-                            <div class="col-sm-12 col-md-3 ">
-                                <div class="pagination-nav-info" id="   ">
-                                    <ul class="pagination">
-                                        <li class="paginate_button page-item previous disabled" id="example_previous"><a
-                                                href="#" aria-controls="example" data-dt-idx="0" tabindex="0" class="page-link">Anterior</a></li>
-                                        <li class="paginate_button page-item active"><a href="#" aria-controls="example"
-                                                data-dt-idx="1" tabindex="0" class="page-link">1</a></li>
-                                        <li class="paginate_button page-item "><a href="#" aria-controls="example"
-                                                data-dt-idx="2" tabindex="0" class="page-link">2</a></li>
-                                        <li class="paginate_button page-item "><a href="#" aria-controls="example"
-                                                data-dt-idx="3" tabindex="0" class="page-link">3</a></li>
-                                        <li class="paginate_button page-item "><a href="#" aria-controls="example"
-                                                data-dt-idx="4" tabindex="0" class="page-link">4</a></li>
-                                        <li class="paginate_button page-item "><a href="#" aria-controls="example"
-                                                data-dt-idx="5" tabindex="0" class="page-link">5</a></li>
-                                        <li class="paginate_button page-item "><a href="#" aria-controls="example"
-                                                data-dt-idx="6" tabindex="0" class="page-link">6</a></li>
-                                        <li class="paginate_button page-item next" id="example_next"><a href="#"
-                                                aria-controls="example" data-dt-idx="7" tabindex="0" class="page-link">Siguiente</a></li>
-                                    </ul>
+                        <div class="card-body">
+                            <!--campos-->
+                            <div class="row">
+                                <div class="form-group col-12 col-md-6">
+                                    <label for="exampleFormControlInput1">Número</label>
+                                    <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="12"
+                                        disabled>
+                                </div>
+    
+    
+                                <div class="form-group col-12 col-md-6">
+                                    <label for="exampleFormControlInput1">Abreviatura</label>
+                                    <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="Ingrese abreviatura">
+                                </div>
+                                <div class="form-group col-12 col-md-6">
+                                    <label for="exampleFormControlInput1">Descripción</label>
+                                    <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="Ingrese descripción">
+                                </div>
+    
+    
+                                <div class="form-group col-12 col-md-6">
+                                    <label for="exampleFormControlInput1">Estatus</label>
+                                    <select name="" id="" class="form-control form-control-sm">
+                                        <option value="">Seleccione </option>
+                                        <option value="">Option 1</option>
+                                        <option value="">Option 1</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-12 col-md-6">
+                                    <label for="exampleFormControlInput1">Observaciones</label>
+                                    <textarea class="form-control form-control-sm" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                                <div class="col-12 d-flex justify-content-end">
+                                    <a href="#" class="btn btn-sm btn-dark mr-4" role="button"><i class="fas fa-times"></i> Cancelar</a>
+                                    <a href="#" class="btn btn-sm btn-danger mr-4" role="button"><i class="fas fa-save"></i> Guardar</a>
                                 </div>
                             </div>
+    
+    
                         </div>
                     </div>
-                </div>
             </div>
 
         </div>
