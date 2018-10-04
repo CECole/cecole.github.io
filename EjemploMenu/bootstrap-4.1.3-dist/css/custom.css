@@ -56,6 +56,7 @@ nav.nav.nav-underline a{
     background: #FBFBFB;
     background-image: url("../img/grecas-gris.png");
     background-repeat: repeat-x;
+    background-position: top;
     min-height: 400px;
    
 }
