@@ -47,11 +47,13 @@ nav.nav.nav-underline {
   
 }
 .main-title{
-    font-size: .99rem;
+    font-size: 1.1rem;
+    
 }
 
 nav.nav.nav-underline a{
     color: #000;
+    font-size: .8rem;
   
 }
 
@@ -106,18 +108,18 @@ tr {
 }
 
 .btn-alta:hover{
-    background: green;
-    color: #fff;
+    background: #c5c5c5;
+    color: #000;
 }
 
 .btn-borrar:hover{
-    background: red;
-    color: #fff;
+    background: #c5c5c5;
+    color: #000;
 }
 
 .btn-baja:hover{
-    background: rgb(218, 131, 0);
-    color: #fff;
+    background: #c5c5c5;
+    color: #000;
 }
 
 th {
@@ -131,11 +133,13 @@ th {
 .page-link{
     color: #F70000;
     font-size: .7rem;
+    padding-bottom: .2rem;
+    
 }
 
 .page-link:hover {
-    background: #F70000;
-    color: #fff
+    background: #c5c5c5;
+    color: #000;
 }
 
 .page-item.active .page-link {
@@ -166,4 +170,23 @@ label {
 .table thead th {
 
     border-right: 2px solid #fff;
+}
+
+
+.logout {
+    font-size: 1.1rem;
+}
+
+td a {
+    padding-top: 10px;
+    font-size: .8rem;
+}
+
+table th, .table td { 
+    vertical-align: text-bottom;
+}
+
+.title-section {
+    
+    font-size: .9rem;
 }
