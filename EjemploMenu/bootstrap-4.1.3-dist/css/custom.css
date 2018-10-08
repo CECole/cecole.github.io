@@ -43,7 +43,7 @@ body{
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: rgba(255, 255, 255);
+    color: rgba(255, 255, 255, 1);
     
 }
 
@@ -76,7 +76,7 @@ nav.nav.nav-underline a{
 .breadcrumb {
 
     background-color: transparent;
-    font-size: .8rem;
+    font-size: .7rem;
     font-weight: 700;
     padding-bottom: 0px;
 }
@@ -199,5 +199,5 @@ table th, .table td {
 }
 
 .user i {
-    font-size: .8rem;
+    font-size: .7rem;
 }
