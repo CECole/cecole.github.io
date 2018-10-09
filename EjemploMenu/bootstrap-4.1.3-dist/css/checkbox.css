@@ -27,7 +27,7 @@ input[type="checkbox"] + .label-text:before{
 	width: 1em;
 	display: inline-block;
     margin-right: 5px;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 input[type="checkbox"]:checked + .label-text:before{
@@ -64,8 +64,9 @@ input[type="radio"] + .label-text:before{
 
 input[type="radio"]:checked + .label-text:before{
 	content: "\f192";
-	color: #8e44ad;
+	color: #FF0000;
 	animation: effect 250ms ease-in;
+	font-size: 1rem;
 }
 
 input[type="radio"]:disabled + .label-text{
