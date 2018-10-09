@@ -159,6 +159,19 @@ th {
     background: #F70000;
     color: #fff;
 }
+
+.btn-secondary {
+    color: #fff;
+    background-color: #ff671b;
+    border-color: #ff671b;
+}
+
+.btn-secondary:hover {
+    color: #fff;
+    background-color: #EC570D;
+    border-color: #EC570D;
+}
+
 label {
     font-weight: 700;
     font-size: .8rem;
