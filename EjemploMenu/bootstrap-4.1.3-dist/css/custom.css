@@ -214,3 +214,8 @@ table th, .table td {
 .user i {
     font-size: .7rem;
 }
+
+.mini-title{
+    font-size: .7rem;
+    color: #F70000;
+}

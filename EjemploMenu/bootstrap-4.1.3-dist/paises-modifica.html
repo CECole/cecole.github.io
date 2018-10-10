@@ -158,87 +158,53 @@
                     </aside>
                 </nav>
             </div>
-            <!--Breadcrum-->
             <div class="col-9 pl-0">
+                <!--Breadcrum-->
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb pt-0">
                         <li class="breadcrumb-item" style="color:red">Inicio</a></a></li>
                         <li class="breadcrumb-item" style="color:red">Catálogos</a></a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Catálogo de Bodegas</li>
+                        <li class="breadcrumb-item" style="color:red">Catálogos de Países</a></a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Alta</li>
                     </ol>
                 </nav>
                 <!--MainContent-->
                 <div class="card mt-5">
                     <div class="card-header tab-header bg-danger text-white pb-0">
-                        <h5 class="title-section">Catálogo de Bodegas</h5>
+                        <h5 class="title-section">Catálogo de Países</h5>
                         <p style="margin-bottom:10px"></p>
                     </div>
                     <div class="card-body">
                         <div class="row">
                             <div class="col-12 col-md-6">
                                 <div class="form-group">
-                                    <label for="exampleFormControlInput1">Bodega Inicial</label>
+                                    <label for="exampleFormControlInput1">No. de País</label>
                                     <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1"
                                         placeholder="">
                                 </div>
                             </div>
                             <div class="col-12 col-md-6">
                                 <div class="form-group">
-                                    <label for="exampleFormControlInput1">Bodega Final</label>
+                                    <label for="exampleFormControlInput1">Abreviatura</label>
                                     <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1"
                                         placeholder="">
                                 </div>
                             </div>
                             <div class="col-12 col-md-6">
                                 <div class="form-group">
-                                    <label for="exampleFormControlInput1">Cliente Inicial</label>
+                                    <label for="exampleFormControlInput1">Formato de Registro de Identidad Tributaria</label>
                                     <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1"
                                         placeholder="">
                                 </div>
                             </div>
                             <div class="col-12 col-md-6">
                                 <div class="form-group">
-                                    <label for="exampleFormControlInput1">Cliente Final</label>
+                                    <label for="exampleFormControlInput1">Nombre</label>
                                     <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1"
                                         placeholder="">
                                 </div>
                             </div>
-                            <div class="row col-12 justify-content-around align-items-end">
-                                <div class="col-12 col-md-3">
-                                    <label for="">Tipo de Bodega</label><br>
-                                    <div class="form-check">
-                                        <label class="check-label">
-                                            <input type="checkbox" name="check"> <span class="label-text">Directa
-                                                Fiscal</span>
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-3 ">
-                                    <div class="form-check">
-                                        <label class="check-label">
-                                            <input type="checkbox" name="check"> <span class="label-text">Directa
-                                                Nacional</span>
-                                        </label>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-3">
-                                    <div class="form-check">
-                                        <label class="check-label">
-                                            <input type="checkbox" name="check"> <span class="label-text">Hab
-                                                Fiscal</span>
-                                        </label>
-                                    </div>
-                                </div>
 
-                                <div class="col-12 col-md-3">
-                                    <div class="form-check">
-                                        <label class="check-label">
-                                            <input type="checkbox" name="check"> <span class="label-text">Hab
-                                                Nacional</span>
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
                             <div class="row col-12 pr-0">
                                 <div class="col-12 col-md-6">
                                     <div class="form-group">
@@ -250,16 +216,13 @@
                                         </select>
                                     </div>
                                 </div>
-                                
+
                             </div>
-                            <div class="col-12 mb-3 d-flex align-self-center justify-content-end"
-                                    style="padding-top: 15px">
-                                    <a class="btn btn-sm btn1 btn-dark mr-2" href="bodegas-editar.html" role="button"><i
-                                            class="fas fa-search"></i>
-                                        Buscar</a>
-                                    <a class="btn btn-sm btn1 btn-danger" href="bodegas-editar.html" role="button"><i
-                                            class="fas fa-plus"></i>
-                                        Agregar</a>
+                            <div class="col-12 mb-3 d-flex justify-content-end">
+                                    <a class="btn btn-sm btn1 btn-dark mr-2" href="paises.html" role="button"><i class="fas fa-times"></i>
+                                        Cancelar</a>
+                                    <a class="btn btn-sm btn1 btn-danger mr-2" href="paises.html" role="button"><i class="fas fa-save"></i>
+                                        Guardar</a>
                                 </div>
                         </div>
                         <!--table-->
@@ -273,163 +236,163 @@
                                                 style="width: auto; text-align: center;     " aria-label="Last name: activate to sort column ascending">Acciones
                                             </th>
                                             <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
-                                                style="width: auto; text-align: center;     " aria-label="Last name: activate to sort column ascending">Bodega
+                                                style="width: auto; text-align: center;     " aria-label="Last name: activate to sort column ascending">Número
                                             </th>
                                             <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
-                                                style="width: auto; text-align: center;   " aria-label="Position: activate to sort column ascending">Tipo</th>
+                                                style="width: auto; text-align: center;   " aria-label="Position: activate to sort column ascending">Abreviatura</th>
                                             <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
-                                                style="width: 80px; text-align: center;    " aria-label="Office: activate to sort column ascending">Cliente</th>
+                                                style="width: 80px; text-align: center;    " aria-label="Office: activate to sort column ascending">Nombre</th>
                                             <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
-                                                style="width: auto; text-align: center;   " aria-label="Age: activate to sort column ascending">Dirección</th>
+                                                style="width: auto; text-align: center;   " aria-label="Age: activate to sort column ascending">Estatus</th>
                                             <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
-                                                style="width: auto; text-align: center;   " aria-label="Age: activate to sort column ascending">Nombre</th>
-                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
-                                                style="width: auto; text-align: center;   " aria-label="Age: activate to sort column ascending">Responsable</th>
-                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
-                                                style="width: 29px; text-align: center;   " aria-label="Age: activate to sort column ascending">Estatus</th>
+                                                style="width: auto; text-align: center;   " aria-label="Age: activate to sort column ascending">Formato
+                                                de Resgitro de Identidad Tributaria</th>
+
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr role="row" class="odd ui-selectee">
                                             <td><button class="btn btn-action btn-alta btn-sm" data-toggle="tooltip"
-                                                    data-placement="top" title="Reportes Suspensión-Habilitación"><i
-                                                        class="fas fa-list-ul"></i></button>
+                                                    data-placement="top" title="Habilitar"><i class="fas fa-check"></i></button>
+                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
+                                                    data-placement="top" title="Estados"><i class="fas fa-map-marker-alt"></i></button>
                                                 <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
                                                     data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
-                                            <td><a href="#">200-001</a></td>
-                                            <td>D.N.</td>
-                                            <td>787</td>
-                                            <td>Calle Prueba 123</td>
-                                            <td>Juan</td>
-                                            <td>Vázquez</td>
+                                            <td><a href="#">1</a></td>
+                                            <td>MEX</td>
+                                            <td>México</td>
                                             <td>Vigente</td>
+                                            <td>AUQBE-KANSDOUKASD-NASJDNAS-BASJIDBA-JASD</td>
+
                                         </tr>
                                         <tr role="row" class="odd ui-selectee">
                                             <td><button class="btn btn-action btn-alta btn-sm" data-toggle="tooltip"
-                                                    data-placement="top" title="Reportes Suspensión-Habilitación"><i
-                                                        class="fas fa-list-ul"></i></button>
+                                                    data-placement="top" title="Habilitar"><i class="fas fa-check"></i></button>
+                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
+                                                    data-placement="top" title="Estados"><i class="fas fa-map-marker-alt"></i></button>
                                                 <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
                                                     data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
-                                            <td><a href="#">200-001</a></td>
-                                            <td>D.N.</td>
-                                            <td>787</td>
-                                            <td>Calle Prueba 123</td>
-                                            <td>Ramón Carlos</td>
-                                            <td>Vázquez</td>
+                                            <td><a href="#">1</a></td>
+                                            <td>MEX</td>
+                                            <td>México</td>
                                             <td>Vigente</td>
+                                            <td>AUQBE-KANSDOUKASD-NASJDNAS-BASJIDBA-JASD</td>
+
                                         </tr>
                                         <tr role="row" class="odd ui-selectee">
                                             <td><button class="btn btn-action btn-alta btn-sm" data-toggle="tooltip"
-                                                    data-placement="top" title="Reportes Suspensión-Habilitación"><i
-                                                        class="fas fa-list-ul"></i></button>
+                                                    data-placement="top" title="Habilitar"><i class="fas fa-check"></i></button>
+                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
+                                                    data-placement="top" title="Estados"><i class="fas fa-map-marker-alt"></i></button>
                                                 <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
                                                     data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
-                                            <td><a href="#">200-001</a></td>
-                                            <td>D.N.</td>
-                                            <td>787</td>
-                                            <td>Calle Prueba 123</td>
-                                            <td>Roberto Augusto</td>
-                                            <td>Vázquez</td>
+                                            <td><a href="#">1</a></td>
+                                            <td>MEX</td>
+                                            <td>México</td>
                                             <td>Vigente</td>
+                                            <td>AUQBE-KANSDOUKASD-NASJDNAS-BASJIDBA-JASD</td>
+
                                         </tr>
                                         <tr role="row" class="odd ui-selectee">
                                             <td><button class="btn btn-action btn-alta btn-sm" data-toggle="tooltip"
-                                                    data-placement="top" title="Reportes Suspensión-Habilitación"><i
-                                                        class="fas fa-list-ul"></i></button>
+                                                    data-placement="top" title="Baja"><i class="fas fa-level-down-alt"></i></button>
+                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
+                                                    data-placement="top" title="Estados"><i class="fas fa-map-marker-alt"></i></button>
                                                 <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
                                                     data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
-                                            <td><a href="#">200-001</a></td>
-                                            <td>D.N.</td>
-                                            <td>787</td>
-                                            <td>Calle Prueba 123</td>
-                                            <td>Sara</td>
-                                            <td>Vázquez</td>
+                                            <td><a href="#">1</a></td>
+                                            <td>MEX</td>
+                                            <td>México</td>
                                             <td>Vigente</td>
+                                            <td>AUQBE-KANSDOUKASD-NASJDNAS-BASJIDBA-JASD</td>
+
                                         </tr>
                                         <tr role="row" class="odd ui-selectee">
                                             <td><button class="btn btn-action btn-alta btn-sm" data-toggle="tooltip"
-                                                    data-placement="top" title="Reportes Suspensión-Habilitación"><i
-                                                        class="fas fa-list-ul"></i></button>
+                                                    data-placement="top" title="Baja"><i class="fas fa-level-down-alt"></i></button>
+                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
+                                                    data-placement="top" title="Estados"><i class="fas fa-map-marker-alt"></i></button>
                                                 <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
                                                     data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
-                                            <td><a href="#">200-001</a></td>
-                                            <td>D.N.</td>
-                                            <td>787</td>
-                                            <td>Calle Prueba 123</td>
-                                            <td>Estrella María</td>
-                                            <td>Vázquez</td>
+                                            <td><a href="#">1</a></td>
+                                            <td>MEX</td>
+                                            <td>México</td>
                                             <td>Vigente</td>
+                                            <td>AUQBE-KANSDOUKASD-NASJDNAS-BASJIDBA-JASD</td>
+
                                         </tr>
                                         <tr role="row" class="odd ui-selectee">
                                             <td><button class="btn btn-action btn-alta btn-sm" data-toggle="tooltip"
-                                                    data-placement="top" title="Reportes Suspensión-Habilitación"><i
-                                                        class="fas fa-list-ul"></i></button>
+                                                    data-placement="top" title="Habilitar"><i class="fas fa-check"></i></button>
+                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
+                                                    data-placement="top" title="Estados"><i class="fas fa-map-marker-alt"></i></button>
                                                 <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
                                                     data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
-                                            <td><a href="#">200-001</a></td>
-                                            <td>D.N.</td>
-                                            <td>787</td>
-                                            <td>Calle Prueba 123</td>
-                                            <td>Rogelio</td>
-                                            <td>Vázquez</td>
+                                            <td><a href="#">1</a></td>
+                                            <td>MEX</td>
+                                            <td>México</td>
                                             <td>Vigente</td>
+                                            <td>AUQBE-KANSDOUKASD-NASJDNAS-BASJIDBA-JASD</td>
+
                                         </tr>
                                         <tr role="row" class="odd ui-selectee">
                                             <td><button class="btn btn-action btn-alta btn-sm" data-toggle="tooltip"
-                                                    data-placement="top" title="Reportes Suspensión-Habilitación"><i
-                                                        class="fas fa-list-ul"></i></button>
+                                                    data-placement="top" title="Habilitar"><i class="fas fa-check"></i></button>
+                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
+                                                    data-placement="top" title="Estados"><i class="fas fa-map-marker-alt"></i></button>
                                                 <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
                                                     data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
-                                            <td><a href="#">200-001</a></td>
-                                            <td>D.N.</td>
-                                            <td>787</td>
-                                            <td>Calle Prueba 123</td>
-                                            <td>Pedro Pablo</td>
-                                            <td>Vázquez</td>
+                                            <td><a href="#">1</a></td>
+                                            <td>MEX</td>
+                                            <td>México</td>
                                             <td>Vigente</td>
+                                            <td>AUQBE-KANSDOUKASD-NASJDNAS-BASJIDBA-JASD</td>
+
                                         </tr>
                                         <tr role="row" class="odd ui-selectee">
                                             <td><button class="btn btn-action btn-alta btn-sm" data-toggle="tooltip"
-                                                    data-placement="top" title="Reportes Suspensión-Habilitación"><i
-                                                        class="fas fa-list-ul"></i></button>
+                                                    data-placement="top" title="Habilitar"><i class="fas fa-check"></i></button>
+                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
+                                                    data-placement="top" title="Estados"><i class="fas fa-map-marker-alt"></i></button>
                                                 <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
                                                     data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
-                                            <td><a href="#">200-001</a></td>
-                                            <td>D.N.</td>
-                                            <td>787</td>
-                                            <td>Calle Prueba 123</td>
-                                            <td>Daniel Juanito</td>
-                                            <td>Vázquez</td>
+                                            <td><a href="#">1</a></td>
+                                            <td>MEX</td>
+                                            <td>México</td>
                                             <td>Vigente</td>
+                                            <td>AUQBE-KANSDOUKASD-NASJDNAS-BASJIDBA-JASD</td>
+
                                         </tr>
                                         <tr role="row" class="odd ui-selectee">
                                             <td><button class="btn btn-action btn-alta btn-sm" data-toggle="tooltip"
-                                                    data-placement="top" title="Reportes Suspensión-Habilitación"><i
-                                                        class="fas fa-list-ul"></i></button>
+                                                    data-placement="top" title="Baja"><i class="fas fa-level-down-alt"></i></button>
+                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
+                                                    data-placement="top" title="Estados"><i class="fas fa-map-marker-alt"></i></button>
                                                 <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
                                                     data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
-                                            <td><a href="#">200-001</a></td>
-                                            <td>D.N.</td>
-                                            <td>787</td>
-                                            <td>Calle Prueba 123</td>
-                                            <td>Juan</td>
-                                            <td>Vázquez</td>
+                                            <td><a href="#">1</a></td>
+                                            <td>MEX</td>
+                                            <td>México</td>
                                             <td>Vigente</td>
+                                            <td>AUQBE-KANSDOUKASD-NASJDNAS-BASJIDBA-JASD</td>
+
                                         </tr>
                                         <tr role="row" class="odd ui-selectee">
                                             <td><button class="btn btn-action btn-alta btn-sm" data-toggle="tooltip"
-                                                    data-placement="top" title="Reportes Suspensión-Habilitación"><i
-                                                        class="fas fa-list-ul"></i></button>
+                                                    data-placement="top" title="Baja"><i class="fas fa-level-down-alt"></i></button>
+                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
+                                                    data-placement="top" title="Estados"><i class="fas fa-map-marker-alt"></i></button>
                                                 <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
                                                     data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
-                                            <td><a href="#">200-001</a></td>
-                                            <td>D.N.</td>
-                                            <td>787</td>
-                                            <td>Calle Prueba 123</td>
-                                            <td>Juan</td>
-                                            <td>Vázquez</td>
+                                            <td><a href="#">1</a></td>
+                                            <td>MEX</td>
+                                            <td>México</td>
                                             <td>Vigente</td>
+                                            <td>AUQBE-KANSDOUKASD-NASJDNAS-BASJIDBA-JASD</td>
+
                                         </tr>
+
+
 
                                 </table>
                             </div>

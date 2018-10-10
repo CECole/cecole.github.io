@@ -1,6 +1,5 @@
-@import url("../css/all.css");
-
-
+@import url("../css/fontawesome.css");
+@import url("../css/solid.css");
 
 .check-label{
 	position: relative;
