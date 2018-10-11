@@ -219,3 +219,54 @@ table th, .table td {
     font-size: .7rem;
     color: #F70000;
 }
+
+.badge {
+    display: inline;
+    font-family: "Gotham-light";
+    padding: .2rem .3rem ;
+    vertical-align: top;
+    border-radius: 0.75rem;
+    font-size: .6rem;
+    
+}
+
+.badge-danger {
+    color: #fff;
+    background-color: #F70000;
+}
+
+.form-text {
+    display: block;
+    margin-top: 0.25rem;
+    font-size: .65rem;
+    line-height: 1;
+}
+
+.alert {
+    font-size: .8rem;
+    text-align: center;
+}
+    
+
+.btn-outline-secondary {
+    color: #ff671b;
+    border-color: #ff671b;
+}
+
+.btn-outline-secondary:hover {
+    color: #fff;
+    border-color: #EC570D;
+    background: #EC570D
+}
+
+
+.btn-outline-danger {
+    color: #F70000;
+    border-color: #F70000;
+}
+
+.btn-outline-danger:hover {
+    color: #fff;
+    border-color: #d00024;
+    background: #d00024
+}

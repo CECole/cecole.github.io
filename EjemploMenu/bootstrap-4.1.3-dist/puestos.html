@@ -13,7 +13,9 @@
     <link rel="stylesheet" href="css/solid.css">
     <link rel="stylesheet" href="css/regular.css">
     <link rel="stylesheet" href="css/metisMenu.css">
+    <link rel="stylesheet" href="css/checkbox.css">
     <link rel="icon" type="image/png" href="img/favicon.png" />
+
 </head>
 
 <body>
@@ -156,132 +158,129 @@
                     </aside>
                 </nav>
             </div>
-            <!--Breadcrum-->
             <div class="col-9 pl-0">
+                <!--Breadcrum-->
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb pt-0">
                         <li class="breadcrumb-item" style="color:red">Inicio</a></a></li>
                         <li class="breadcrumb-item" style="color:red">Catálogos</a></a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Administración de Sistemas</li>
+                        <li class="breadcrumb-item active" aria-current="page">Catálogo de Puestos</li>
                     </ol>
                 </nav>
+                <!--MainContent-->
                 <div class="card mt-5">
                     <div class="card-header tab-header bg-danger text-white pb-0">
-                        <h5 class="title-section">Catálogo de Perfiles</h5>
+                        <h5 class="title-section">Catálogo de Puestos</h5>
                         <p style="margin-bottom:10px"></p>
                     </div>
                     <div class="card-body">
                         <div class=" mb-3 d-flex justify-content-end">
-                            <a  class="btn btn-sm btn1 btn-danger mr-2" href="campos2.html" role="button"><i class="fas fa-plus"></i>
+                            <a class="btn btn-sm btn1 btn-danger mr-2" href="puestos-editar.html" role="button"><i
+                                    class="fas fa-plus"></i>
                                 Agregar</a>
                         </div>
                         <!--table-->
                         <div class="row">
-                            <div class="col-sm-12">
-                                <table id="example" class="table table-sm   table-hover nowrap dataTable no-footer dtr-inline collapsed ui-selectable"
-                                    style="width: 100%; text-align: center" role="grid" aria-describedby="example_info">
+                            <div class="col-sm-12" style="overflow-x:auto">
+                                <table id="example" class="table table-sm table-hover nowrap dataTable no-footer dtr-inline collapsed ui-selectable"
+                                    style=" text-align: center; " role="grid">
                                     <thead>
                                         <tr role="row" class="ui-selectee">
                                             <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
-                                                style="width: 2px; text-align: center;     " aria-label="Last name: activate to sort column ascending">Acciones
+                                                style="width: auto; text-align: center;     " aria-label="Last name: activate to sort column ascending">Acciones
                                             </th>
                                             <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
-                                                style="width: 1px; text-align: center;     " aria-label="Last name: activate to sort column ascending">Número
+                                                style="width: auto; text-align: center;     " aria-label="Last name: activate to sort column ascending">Número
                                             </th>
                                             <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
-                                                style="width: 177px; text-align: center;   " aria-label="Position: activate to sort column ascending">Descripción</th>
+                                                style="width: auto; text-align: center;     " aria-label="Last name: activate to sort column ascending">Descripción
+                                            </th>
                                             <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
-                                                style="width: 80px; text-align: center;    " aria-label="Office: activate to sort column ascending">Abreviatura</th>
-                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
-                                                style="width: 29px; text-align: center;   " aria-label="Age: activate to sort column ascending">Estatus</th>
+                                                style="width: 80; text-align: center;   " aria-label="Position: activate to sort column ascending">Abreviatura</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr role="row" class="odd ui-selectee">
-                                            <td><button class="btn btn-action btn-alta btn-sm" data-toggle="tooltip" data-placement="top" title="Habilitar"><i class="fas fa-check"></i></button>
-                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip" data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
+                                            <td><button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
+                                                    data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
                                             <td><a href="#">1</a></td>
-                                            <td>Gerente de Comercialización Directa y Logística B</td>
-                                            <td>GTE. COM. DIR</td>
-                                            <td>Vigente</td>
+                                            <td>Director General</td>
+                                            <td>Dr. Gral.</td>
+                                        </tr>
+
+                                        <tr role="row" class="odd ui-selectee">
+                                            <td><button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
+                                                    data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
+                                            <td><a href="#">1</a></td>
+                                            <td>Director General</td>
+                                            <td>Dr. Gral.</td>
+                                        </tr>
+
+                                        <tr role="row" class="odd ui-selectee">
+                                            <td><button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
+                                                    data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
+                                            <td><a href="#">1</a></td>
+                                            <td>Director General</td>
+                                            <td>Dr. Gral.</td>
+                                        </tr>
+
+                                        <tr role="row" class="odd ui-selectee">
+                                            <td><button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
+                                                    data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
+                                            <td><a href="#">1</a></td>
+                                            <td>Director General</td>
+                                            <td>Dr. Gral.</td>
+                                        </tr>
+
+                                        <tr role="row" class="odd ui-selectee">
+                                            <td><button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
+                                                    data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
+                                            <td><a href="#">1</a></td>
+                                            <td>Director General</td>
+                                            <td>Dr. Gral.</td>
+                                        </tr>
+
+                                        <tr role="row" class="odd ui-selectee">
+                                            <td><button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
+                                                    data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
+                                            <td><a href="#">1</a></td>
+                                            <td>Director General</td>
+                                            <td>Dr. Gral.</td>
+                                        </tr>
+
+                                        <tr role="row" class="odd ui-selectee">
+                                            <td><button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
+                                                    data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
+                                            <td><a href="#">1</a></td>
+                                            <td>Director General</td>
+                                            <td>Dr. Gral.</td>
+                                        </tr>
+
+                                        <tr role="row" class="odd ui-selectee">
+                                            <td><button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
+                                                    data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
+                                            <td><a href="#">1</a></td>
+                                            <td>Director General</td>
+                                            <td>Dr. Gral.</td>
                                         </tr>
                                         <tr role="row" class="odd ui-selectee">
-                                            <td><button class="btn btn-action btn-alta btn-sm" data-toggle="tooltip" data-placement="top" title="Habilitar"><i class="fas fa-check"></i></button>
-                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip" data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
-                                            <td><a href="#">2</a></td>
-                                            <td>Gerente de Comercialización Directa y Logística B</td>
-                                            <td>GTE. COM. DIR</td>
-                                            <td>Vigente</td>
+                                            <td><button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
+                                                    data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
+                                            <td><a href="#">1</a></td>
+                                            <td>Director General</td>
+                                            <td>Dr. Gral.</td>
                                         </tr>
                                         <tr role="row" class="odd ui-selectee">
-                                            <td><button class="btn btn-action btn-alta btn-sm" data-toggle="tooltip" data-placement="top" title="Habilitar"><i class="fas fa-check"></i></button>
-                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip" data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
-                                            <td><a href="#">3</a></td>
-                                            <td>Gerente de Comercialización Directa y Logística B</td>
-                                            <td>GTE. COM. DIR</td>
-                                            <td>Vigente</td>
+                                            <td><button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
+                                                    data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
+                                            <td><a href="#">1</a></td>
+                                            <td>Director General</td>
+                                            <td>Dr. Gral.</td>
                                         </tr>
-                                        <tr role="row" class="odd ui-selectee">
-                                            <td><button class="btn btn-action btn-baja btn-sm" data-toggle="tooltip" data-placement="top" title="Baja"><i class="fas fa-level-down-alt"></i></button>
-                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip" data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
-                                            <td><a href="#">4</a></td>
-                                            <td>Gerente de Comercialización Directa y Logística B</td>
-                                            <td>GTE. COM. DIR</td>
-                                            <td>Vigente</td>
-                                        </tr>
-                                        <tr role="row" class="odd ui-selectee">
-                                            <td><button class="btn btn-action btn-alta btn-sm" data-toggle="tooltip" data-placement="top" title="Habilitar"><i class="fas fa-check"></i></button>
-                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip" data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
-                                            <td><a href="#">5</a></td>
-                                            <td>Gerente de Comercialización Directa y Logística B</td>
-                                            <td>GTE. COM. DIR</td>
-                                            <td>Vigente</td>
-                                        </tr>
-                                        <tr role="row" class="odd ui-selectee">
-                                            <td><button class="btn btn-action btn-alta btn-sm" data-toggle="tooltip" data-placement="top" title="Habilitar"><i class="fas fa-check"></i></button>
-                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip" data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
-                                            <td><a href="#">6</a></td>
-                                            <td>Gerente de Comercialización Directa y Logística B</td>
-                                            <td>GTE. COM. DIR</td>
-                                            <td>Vigente</td>
-                                        </tr>
-                                        <tr role="row" class="odd ui-selectee">
-                                            <td><button class="btn btn-action btn-baja btn-sm" data-toggle="tooltip" data-placement="top" title="Baja"><i class="fas fa-level-down-alt"></i></button>
-                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip" data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
-                                            <td><a href="#">7</a></td>
-                                            <td>Gerente de Comercialización Directa y Logística B</td>
-                                            <td>GTE. COM. DIR</td>
-                                            <td>Vigente</td>
-                                        </tr>
-                                        <tr role="row" class="odd ui-selectee">
-                                            <td><button class="btn btn-action btn-baja btn-sm" data-toggle="tooltip" data-placement="top" title="Baja"><i class="fas fa-level-down-alt"></i></button>
-                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip" data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
-                                            <td><a href="#">8</a></td>
-                                            <td>Gerente de Comercialización Directa y Logística B</td>
-                                            <td>GTE. COM. DIR</td>
-                                            <td>Vigente</td>
-                                        </tr>
-                                        <tr role="row" class="odd ui-selectee">
-                                            <td><button class="btn btn-action btn-alta btn-sm" data-toggle="tooltip" data-placement="top" title="Habilitar"><i class="fas fa-check"></i></button>
-                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip" data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
-                                            <td><a href="#">9</a></td>
-                                            <td>Gerente de Comercialización Directa y Logística B</td>
-                                            <td>GTE. COM. DIR</td>
-                                            <td>Vigente</td>
-                                        </tr>
-                                        <tr role="row" class="odd ui-selectee">
-                                            <td><button class="btn btn-action btn-baja btn-sm" data-toggle="tooltip" data-placement="top" title="Baja"><i class="fas fa-level-down-alt"></i></button>
-                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip" data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
-                                            <td><a href="#">10</a></td>
-                                            <td>Gerente de Comercialización Directa y Logística B</td>
-                                            <td>GTE. COM. DIR</td>
-                                            <td>Vigente</td>
-                                        </tr>
-                                    </tbody>
+
                                 </table>
                             </div>
                         </div>
-
                         <!--Paginador-->
                         <div class="row">
 
