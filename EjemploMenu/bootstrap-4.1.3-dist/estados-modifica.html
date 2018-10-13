@@ -135,7 +135,7 @@
                                 </li>
                                 <li>
                                     <a class="has-arrow" href="#" aria-expanded="false"><i class="fas fa-flag"></i>
-                                        Reportes
+										Reportes</a>
                                         <ul aria-expanded="false" class="collapse">
                                             <li><a href="#">item 2.1</a></li>
                                             <li><a href="#">item 2.2</a></li>
@@ -162,15 +162,15 @@
                 <!--Breadcrum-->
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb pt-0">
-                        <li class="breadcrumb-item" style="color:red">Inicio</a></a></li>
-                        <li class="breadcrumb-item" style="color:red">Catálogos</a></a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Catálogo de Estados</li>
+                        <li class="breadcrumb-item" style="color:red">Catálogos</li>
+                        <li class="breadcrumb-item" style="color:red">Generales </li>
+                        <li class="breadcrumb-item active" aria-current="page">Estados</li>
                     </ol>
                 </nav>
                 <!--MainContent-->
                 <div class="card mt-5">
                     <div class="card-header tab-header bg-danger text-white pb-0">
-                        <h5 class="title-section">Catálogo de Estados</h5>
+                        <h5 class="title-section">Estados</h5>
                         <p style="margin-bottom:10px"></p>
                     </div>
                     <div class="card-body">
@@ -178,11 +178,11 @@
                             <div class="col-12 col-md-6">
                                 <label for="exampleFormControlInput1">País</label>
                                 <div class="input-group input-group-sm mb-3">
-                                    <div class="input-group-prepend">
-                                        <button class="btn btn-outline-danger" type="button">España</button>
-                                    </div>
-                                    <input type="text" class="form-control" placeholder="" aria-label=""
-                                        aria-describedby="basic-addon1">
+                                   <select name="" id="" class="form-control form-control-sm">
+                                        <option value="">Seleccione un País </option>
+                                        <option value="">Option 1</option>
+                                        <option value="">Option 1</option>
+                                    </select>
                                 </div>
                             </div>
                             <div class="col-12 col-md-6">
@@ -218,111 +218,13 @@
                             </div>
                         </div>
 
-                        <div class=" mb-3 d-flex justify-content-end">
+                        <div class=" d-flex justify-content-end">
                             <a class="btn btn-sm btn1 btn-dark mr-2" href="estados.html" role="button"><i class="fas fa-times"></i>
                                 Cancelar</a>
                             <a class="btn btn-sm btn1 btn-danger" href="estados.html" role="button"><i class="fas fa-save"></i>
                                 Guardar</a>
                         </div>
-                        <!--table-->
-                        <div class="row">
-                            <div class="col-sm-12" style="overflow-x:auto">
-                                <table id="example" class="table table-sm table-hover nowrap dataTable no-footer dtr-inline collapsed ui-selectable"
-                                    style=" text-align: center; " role="grid">
-                                    <thead>
-                                        <tr role="row" class="ui-selectee">
-                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
-                                                style="width: auto; text-align: center;     " aria-label="Last name: activate to sort column ascending">Acciones
-                                            </th>
-                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
-                                                style="width: auto; text-align: center;     " aria-label="Last name: activate to sort column ascending">Número
-                                            </th>
-                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
-                                                style="width: 80; text-align: center;   " aria-label="Position: activate to sort column ascending">Abreviatura</th>
-                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
-                                                style="width: auto; text-align: center;    " aria-label="Office: activate to sort column ascending">Nombre</th>
-                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
-                                                style="width: auto; text-align: center;   " aria-label="Age: activate to sort column ascending">Estatus</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr role="row" class="odd ui-selectee">
-                                            <td><button class="btn btn-action btn-alta btn-sm" data-toggle="tooltip"
-                                                    data-placement="top" title="Habilitar"><i class="fas fa-check"></i></button>
-                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
-                                                    data-placement="top" title="Ciudades"><i class="fas fa-map-marked-alt"></i></button>
-                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
-                                                    data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
-                                            <td><a href="#">84</a></td>
-                                            <td>COR</td>
-                                            <td>La Coruña de Cervantes Saavedra</td>
-                                            <td>Vigente</td>
-                                        </tr>
-                                        <tr role="row" class="odd ui-selectee">
-                                            <td><button class="btn btn-action btn-baja btn-sm" data-toggle="tooltip"
-                                                    data-placement="top" title="Baja"><i class="fas fa-level-down-alt"></i></button>
-                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
-                                                    data-placement="top" title="Ciudades"><i class="fas fa-map-marked-alt"></i></button>
-                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
-                                                    data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
-                                            <td><a href="#">84</a></td>
-                                            <td>COR</td>
-                                            <td>La Coruña de Cervantes Saavedra</td>
-                                            <td>Vigente</td>
-                                        </tr>
-                                        <tr role="row" class="odd ui-selectee">
-                                            <td><button class="btn btn-action btn-alta btn-sm" data-toggle="tooltip"
-                                                    data-placement="top" title="Habilitar"><i class="fas fa-check"></i></button>
-                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
-                                                    data-placement="top" title="Ciudades"><i class="fas fa-map-marked-alt"></i></button>
-                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
-                                                    data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
-                                            <td><a href="#">84</a></td>
-                                            <td>COR</td>
-                                            <td>La Coruña de Cervantes Saavedra</td>
-                                            <td>Vigente</td>
-                                        </tr>
-                                        <tr role="row" class="odd ui-selectee">
-                                            <td><button class="btn btn-action btn-alta btn-sm" data-toggle="tooltip"
-                                                    data-placement="top" title="Habilitar"><i class="fas fa-check"></i></button>
-                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
-                                                    data-placement="top" title="Ciudades"><i class="fas fa-map-marked-alt"></i></button>
-                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
-                                                    data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
-                                            <td><a href="#">84</a></td>
-                                            <td>COR</td>
-                                            <td>La Coruña de Cervantes Saavedra</td>
-                                            <td>Vigente</td>
-                                        </tr>
-                                </table>
-                            </div>
-                        </div>
-                        <!--Paginador-->
-                        <div class="row">
-
-                            <div class="col-sm-12 col-md-3 ">
-                                <div class="pagination-nav-info" id="   ">
-                                    <ul class="pagination">
-                                        <li class="paginate_button page-item previous disabled" id="example_previous"><a
-                                                href="#" aria-controls="example" data-dt-idx="0" tabindex="0" class="page-link">Anterior</a></li>
-                                        <li class="paginate_button page-item active"><a href="#" aria-controls="example"
-                                                data-dt-idx="1" tabindex="0" class="page-link">1</a></li>
-                                        <li class="paginate_button page-item "><a href="#" aria-controls="example"
-                                                data-dt-idx="2" tabindex="0" class="page-link">2</a></li>
-                                        <li class="paginate_button page-item "><a href="#" aria-controls="example"
-                                                data-dt-idx="3" tabindex="0" class="page-link">3</a></li>
-                                        <li class="paginate_button page-item "><a href="#" aria-controls="example"
-                                                data-dt-idx="4" tabindex="0" class="page-link">4</a></li>
-                                        <li class="paginate_button page-item "><a href="#" aria-controls="example"
-                                                data-dt-idx="5" tabindex="0" class="page-link">5</a></li>
-                                        <li class="paginate_button page-item "><a href="#" aria-controls="example"
-                                                data-dt-idx="6" tabindex="0" class="page-link">6</a></li>
-                                        <li class="paginate_button page-item next" id="example_next"><a href="#"
-                                                aria-controls="example" data-dt-idx="7" tabindex="0" class="page-link">Siguiente</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+        
                     </div>
                 </div>
             </div>

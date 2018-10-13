@@ -13,6 +13,7 @@
 	<link rel="stylesheet" href="css/solid.css">
 	<link rel="stylesheet" href="css/regular.css">
 	<link rel="stylesheet" href="css/metisMenu.css">
+	<link rel="stylesheet" href="css/checkbox.css">
 	<link rel="icon" type="image/png" href="img/favicon.png" />
 </head>
 
@@ -161,52 +162,57 @@
 			<div class="col-9 pl-0">
 				<nav aria-label="breadcrumb">
 					<ol class="breadcrumb pt-0">
-						<li class="breadcrumb-item" style="color:red">Inicio</li>
 						<li class="breadcrumb-item" style="color:red">Catálogos</li>
 						<li class="breadcrumb-item" style="color:red"> Administración de Sistemas</li>
-						<li class="breadcrumb-item active" aria-current="page">Alta</li>
+						<li class="breadcrumb-item active" aria-current="page">Reproceso Histórico Buzón-E</li>
 					</ol>
 				</nav>
 				<div class="card mt-5 ">
 					<div class="card-header tab-header bg-danger text-white pb-0">
-						<h5 class="title-section">Catálogo de Perfiles</h5>
+						<h5 class="title-section">Reproceso Histórico Buzón-E</h5>
 						<p style="margin-bottom:10px; font-size: .7rem"></p>
 					</div>
 					<div class="card-body">
 						<!--campos-->
 						<div class="row">
-							<div class="form-group col-12 col-md-6">
-								<label for="exampleFormControlInput1">Número</label>
-								<input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="12" disabled>
+							<div class="col-12 col-md-4 d-flex align-self-center">
+
+								<div class="form-check">
+									<label class="check-label">
+										<input type="checkbox" name="check"> <span class="label-text">Regenerar Proceso Histórico</span>
+									</label>
+								</div>
 							</div>
-							<div class="form-group col-12 col-md-6">
-								<label for="exampleFormControlInput1">Abreviatura</label>
-								<input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="">
+							<div class="col-12 col-md-4">
+								<label for="exampleFormControlInput1">Fecha Inicio</label>
+								<div class="input-group input-group-sm mb-3">
+									<input type="text" class="form-control" placeholder="" aria-label="DD/MM/AAAA" aria-describedby="basic-addon2">
+									<div class="input-group-append">
+										<span class="input-group-text" id="basic-addon2"><i class="fas fa-calendar-alt"></i></span>
+									</div>
+								</div>
 							</div>
-							<div class="form-group col-12 col-md-6">
-								<label for="exampleFormControlInput1">Descripción</label>
-								<input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="">
+							<div class="col-12 col-md-4">
+								<label for="exampleFormControlInput1">Fecha Fin</label>
+								<div class="input-group input-group-sm mb-3">
+									<input type="text" class="form-control" placeholder="" aria-label="DD/MM/AAAA" aria-describedby="basic-addon2">
+									<div class="input-group-append">
+										<span class="input-group-text" id="basic-addon2"><i class="fas fa-calendar-alt"></i></span>
+									</div>
+								</div>
 							</div>
-							<div class="form-group col-12 col-md-6">
-								<label for="exampleFormControlInput1">Estatus</label>
-								<select name="" id="" class="form-control form-control-sm">
-									<option value="">Seleccione </option>
-									<option value="">Option 1</option>
-									<option value="">Option 1</option>
-								</select>
-							</div>
-							<div class="form-group col-12">
-								<label for="exampleFormControlInput1">Observaciones</label>
-								<textarea class="form-control form-control-sm" id="exampleFormControlTextarea1" rows="3" style="min-height: 70px; max-height: 70px"></textarea>
-							</div>
+
 							<div class="col-12 d-flex justify-content-end">
-								<a class="btn btn-sm btn1 btn-dark mr-2" href="index.html" role="button"><i class="fas fa-times"></i>
-									Cancelar</a>
-								<a class="btn btn-sm btn1 btn-danger mr-2" href="index.html" role="button"><i class="fas fa-save"></i>
-									Guardar</a>
+								<a class="btn btn-sm btn1 btn-dark mr-2" href="#" role="button"><i class="fas fa-search"></i>
+									Buscar</a>
+								<a class="btn btn-sm btn1 btn-danger mr-2" href="#" role="button"><i class="fas fa-plus"></i>
+									Agregar</a>
 							</div>
+
 						</div>
+
 					</div>
+
 				</div>
 			</div>
 

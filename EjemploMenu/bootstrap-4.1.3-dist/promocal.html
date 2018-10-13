@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<title>Catálogos</title>
+	<title>Alta</title>
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -13,9 +13,7 @@
 	<link rel="stylesheet" href="css/solid.css">
 	<link rel="stylesheet" href="css/regular.css">
 	<link rel="stylesheet" href="css/metisMenu.css">
-	<link rel="stylesheet" href="css/checkbox.css">
 	<link rel="icon" type="image/png" href="img/favicon.png" />
-
 </head>
 
 <body>
@@ -23,7 +21,7 @@
 	<nav class="navbar navbar-dark sticky-top  flex-md-nowrap p-0">
 		<div class="container">
 			<a class="navbar-brand col-sm-3 col-md-2 mr-0 ml-2" href="#"><img src="img/logo-bn.png" alt=""></a>
-			<span class="main-title mr-5"><b>Sistema Integral de Almacenadora Banorte</b></span>
+			<span class="mr-5 main-title"><b>Sistema Integral de Almacenadora Banorte</b></span>
 			<ul class="navbar-nav px-1">
 				<li class="nav-item text-nowrap">
 					<a class="nav-link logout" href="#" data-toggle="tooltip" title="Salir"><i class="fas fa-sign-out-alt"></i></a>
@@ -36,18 +34,19 @@
 		<div class="container">
 			<div class="row col-12 ">
 				<div class="col-5 align-self-center">
-					<a class="nav-link active user " href="#"><i class="fas fa-user"></i> José Manuel
+					<a class="nav-link active user" href="#"><i class="fas fa-user fa-lg"></i> José Manuel
 						Jiménez Lobato -
 						A7537C265</a>
 				</div>
 				<div class="col-7 d-flex justify-content-end">
 					<div class=" col col-md-auto px-0 align-self-center" style="text-align:right">
-						<a href=""><i class="far fa-bell fa-2x"><span class="badge  badge-danger">88</span></i></a>
+						<a href=""><i class="far fa-bell fa-2x"></i></a>
 					</div>
 					<div class="col col-md-auto px-0">
 						<a class="nav-link acceso-info" href="#" style="text-align:right">
 							<p class="admin-title"><b>Administrador de Sistemas</b></p>
-							<p style="margin-bottom:0px; font-size:.7rem">Último acceso 25/07/2018 15:30 hrs.</p>
+							<p style="margin-bottom:0px; font-size: .7rem">Último acceso 25/07/2018 15:30 hrs.</p>
+
 						</a>
 					</div>
 				</div>
@@ -158,25 +157,51 @@
 					</aside>
 				</nav>
 			</div>
+			<!--Breadcrum-->
 			<div class="col-9 pl-0">
-				<!--Breadcrum-->
 				<nav aria-label="breadcrumb">
-                    <ol class="breadcrumb pt-0">
-                        <li class="breadcrumb-item" style="color:red">Catálogos</li>
-                        <li class="breadcrumb-item" style="color:red">Generales</li>
-                        <li class="breadcrumb-item active" aria-current="page">Días Inhábiles</li>
-                    </ol>
-                </nav>
-				<!--MainContent-->
-				<div class="card mt-5">
+					<ol class="breadcrumb pt-0">
+						<li class="breadcrumb-item" style="color:red">Catálogos</li>
+						<li class="breadcrumb-item" style="color:red"> Administración de Sistemas</li>
+						<li class="breadcrumb-item active" aria-current="page">Administración de Mercancía PROMOCAL</li>
+					</ol>
+				</nav>
+				<div class="card mt-5 ">
 					<div class="card-header tab-header bg-danger text-white pb-0">
-						<h5 class="title-section">Días Inhábiles</h5>
-						<p style="margin-bottom:10px"></p>
+						<h5 class="title-section">Administración de Mercancía PROMOCAL</h5>
+						<p style="margin-bottom:10px; font-size: .7rem"></p>
 					</div>
 					<div class="card-body">
-						<div class=" mb-3 d-flex justify-content-end">
-							<a class="btn btn-sm btn1 btn-danger mr-2" href="dias-inha-modifica.html" role="button"><i class="fas fa-plus"></i>
-								Agregar</a>
+						<!--campos-->
+						<div class="row">
+							<div class="form-group col-12 col-md-6">
+								<label for="exampleFormControlInput1">Fracción Inicial</label>
+								<input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="">
+							</div>
+							<div class="form-group col-12 col-md-6">
+								<label for="exampleFormControlInput1">Fracción Final</label>
+								<input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="">
+							</div>
+							<div class="form-group col-12 col-md-6">
+								<label for="exampleFormControlInput1">Estatus</label>
+								<select name="" id="" class="form-control form-control-sm">
+									<option value="">Seleccione </option>
+									<option value="">Option 1</option>
+									<option value="">Option 1</option>
+								</select>
+							</div>
+							<div class="form-group col-12 col-md-6">
+								<label for="exampleFormControlInput1">Precio Referencia</label>
+								<input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="">
+							</div>
+
+							<div class="col-12 mb-3 d-flex justify-content-end">
+								<a class="btn btn-sm btn1 btn-dark mr-2" href="promocal-modifica.html" role="button"><i class="fas fa-search"></i>
+									Buscar</a>
+								<a class="btn btn-sm btn1 btn-danger mr-2" href="promocal-modifica.html" role="button"><i class="fas fa-plus"></i>
+									Agregar</a>
+							</div>
+
 						</div>
 						<!--table-->
 						<div class="row">
@@ -186,65 +211,78 @@
 										<tr role="row" class="ui-selectee">
 											<th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: auto; text-align: center;     " aria-label="Last name: activate to sort column ascending">Acciones
 											</th>
-											<th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: auto; text-align: center;     " aria-label="Last name: activate to sort column ascending">Fecha
+											<th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: auto; text-align: center;     " aria-label="Last name: activate to sort column ascending">Fracción
 											</th>
 											<th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: 80; text-align: center;   " aria-label="Position: activate to sort column ascending">Descripción</th>
+											<th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: auto; text-align: center;    " aria-label="Office: activate to sort column ascending">Precio</th>
+											<th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: auto; text-align: center;   " aria-label="Age: activate to sort column ascending">Estatus</th>
 										</tr>
 									</thead>
 									<tbody>
 										<tr role="row" class="odd ui-selectee">
-											<td><button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip" data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
-											<td><a href="#">01/01/2018</a></td>
-											<td>Año Nuevo</td>
+											<td><button class="btn btn-action btn-alta btn-sm" data-toggle="tooltip" data-placement="top" title="deshabilitar"><i class="fas fa-times-circle"></i></button>
+												<button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip" data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
+											<td><a href="#">84</a></td>
+											<td>COR</td>
+											<td>La Coruña de Cervantes Saavedra</td>
+											<td>Vigente</td>
 										</tr>
 										<tr role="row" class="odd ui-selectee">
-											<td><button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip" data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
-											<td><a href="#">01/01/2018</a></td>
-											<td>Año Nuevo</td>
+											<td><button class="btn btn-action btn-alta btn-sm" data-toggle="tooltip" data-placement="top" title="Habilitar"><i class="fas fa-check"></i></button>
+												<button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip" data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
+											<td><a href="#">118</a></td>
+											<td>AGS</td>
+											<td>Aguascalientes</td>
+											<td>Vigente</td>
 										</tr>
 										<tr role="row" class="odd ui-selectee">
-											<td><button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip" data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
-											<td><a href="#">01/01/2018</a></td>
-											<td>Año Nuevo</td>
+											<td><button class="btn btn-action btn-alta btn-sm" data-toggle="tooltip" data-placement="top" title="deshabilitar"><i class="fas fa-times-circle"></i></button>
+												<button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip" data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
+											<td><a href="#">1132</a></td>
+											<td>PUE</td>
+											<td>Puebla</td>
+											<td>Vigente</td>
 										</tr>
 										<tr role="row" class="odd ui-selectee">
-											<td><button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip" data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
-											<td><a href="#">01/01/2018</a></td>
-											<td>Año Nuevo</td>
+											<td><button class="btn btn-action btn-alta btn-sm" data-toggle="tooltip" data-placement="top" title="Habilitar"><i class="fas fa-check"></i></button>
+												<button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip" data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
+											<td><a href="#">154</a></td>
+											<td>CDMX</td>
+											<td>Ciudad de México</td>
+											<td>Vigente</td>
 										</tr>
 										<tr role="row" class="odd ui-selectee">
-											<td><button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip" data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
-											<td><a href="#">01/01/2018</a></td>
-											<td>Año Nuevo</td>
+											<td><button class="btn btn-action btn-alta btn-sm" data-toggle="tooltip" data-placement="top" title="Habilitar"><i class="fas fa-check"></i></button>
+												<button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip" data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
+											<td><a href="#">154</a></td>
+											<td>CDMX</td>
+											<td>Ciudad de México</td>
+											<td>Vigente</td>
 										</tr>
 										<tr role="row" class="odd ui-selectee">
-											<td><button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip" data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
-											<td><a href="#">01/01/2018</a></td>
-											<td>Año Nuevo</td>
+											<td><button class="btn btn-action btn-alta btn-sm" data-toggle="tooltip" data-placement="top" title="Habilitar"><i class="fas fa-check"></i></button>
+												<button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip" data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
+											<td><a href="#">154</a></td>
+											<td>CDMX</td>
+											<td>Ciudad de México</td>
+											<td>Vigente</td>
 										</tr>
 										<tr role="row" class="odd ui-selectee">
-											<td><button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip" data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
-											<td><a href="#">01/01/2018</a></td>
-											<td>Año Nuevo</td>
-										</tr>
-
-										<tr role="row" class="odd ui-selectee">
-											<td><button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip" data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
-											<td><a href="#">01/01/2018</a></td>
-											<td>Año Nuevo</td>
+											<td><button class="btn btn-action btn-alta btn-sm" data-toggle="tooltip" data-placement="top" title="Habilitar"><i class="fas fa-check"></i></button>
+												<button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip" data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
+											<td><a href="#">154</a></td>
+											<td>CDMX</td>
+											<td>Ciudad de México</td>
+											<td>Vigente</td>
 										</tr>
 										<tr role="row" class="odd ui-selectee">
-											<td><button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip" data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
-											<td><a href="#">01/01/2018</a></td>
-											<td>Año Nuevo</td>
+											<td><button class="btn btn-action btn-alta btn-sm" data-toggle="tooltip" data-placement="top" title="Habilitar"><i class="fas fa-check"></i></button>
+												<button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip" data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
+											<td><a href="#">154</a></td>
+											<td>CDMX</td>
+											<td>Ciudad de México</td>
+											<td>Vigente</td>
 										</tr>
-										<tr role="row" class="odd ui-selectee">
-											<td><button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip" data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
-											<td><a href="#">01/01/2018</a></td>
-											<td>Año Nuevo</td>
-										</tr>
-
-
 								</table>
 							</div>
 						</div>
@@ -267,8 +305,10 @@
 							</div>
 						</div>
 					</div>
+
 				</div>
 			</div>
+
 		</div>
 	</div>
 
