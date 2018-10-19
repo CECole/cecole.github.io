@@ -163,23 +163,21 @@
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb pt-0">
                         <li class="breadcrumb-item" style="color:red">Catálogos</li>
-                        <li class="breadcrumb-item" style="color:red">Inventario</li>
-                        <li class="breadcrumb-item active" aria-current="page">Tipos de Empaque</li>
+                        <li class="breadcrumb-item" style="color:red">Control Aduanero</li>
+                        <li class="breadcrumb-item active" aria-current="page">Fracciones Arancelarias para Importación</li>
                     </ol>
                 </nav>
                 <!--MainContent-->
                 <div class="card mt-5">
                     <div class="card-header tab-header bg-danger text-white pb-0">
-                        <h5 class="title-section">Tipos de Empaque</h5>
+                        <h5 class="title-section">Fracciones Arancelarias para Importación</h5>
                         <p style="margin-bottom:10px"></p>
                     </div>
                     <div class="card-body">
-                        <div class="row">
 
-                        </div>
                         <div class=" mb-3 d-flex justify-content-end">
 
-                            <a class="btn btn-sm btn1 btn-danger mr-2" href="tipos-empaque-modificacion.html" role="button"><i
+                            <a class="btn btn-sm btn1 btn-danger mr-2" href="fracciones-arancelarias-modificacion.html" role="button"><i
                                     class="fas fa-plus"></i>
                                 Agregar</a>
                         </div>
@@ -187,21 +185,31 @@
                         <div class="row">
                             <div class="col-sm-12" style="overflow-x:auto">
                                 <table id="example" class="table table-sm table-hover nowrap dataTable no-footer dtr-inline collapsed ui-selectable"
-                                    style=" text-align: center; " role="grid">
+                                    style=" text-align: center; width: 150%" role="grid">
                                     <thead>
                                         <tr role="row" class="ui-selectee">
                                             <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
                                                 style="width: auto; text-align: center;     " aria-label="Last name: activate to sort column ascending">Acciones
                                             </th>
                                             <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
-                                                style="width: auto; text-align: center;     " aria-label="Last name: activate to sort column ascending">Número
+                                                style="width: auto; text-align: center;     " aria-label="Last name: activate to sort column ascending">Fracción
                                             </th>
                                             <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
-                                                style="width: 80; text-align: center;   " aria-label="Position: activate to sort column ascending">Descripción</th>
+                                                style="width: 250px; text-align: center;   " aria-label="Position: activate to sort column ascending">Descripción</th>
                                             <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
-                                                style="width: auto; text-align: center;   " aria-label="Age: activate to sort column ascending">Abreviatura</th>
+                                                style="width: 80; text-align: center;   " aria-label="Position: activate to sort column ascending">Tasa
+                                                </th>
+                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
+                                                style="width: 80; text-align: center;   " aria-label="Position: activate to sort column ascending">Tipo de Tasa
+                                                </th>
+                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
+                                                style="width: 100px; text-align: center;   " aria-label="Position: activate to sort column ascending">U.M.
+                                            </th>
+
                                             <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
                                                 style="width: auto; text-align: center;   " aria-label="Age: activate to sort column ascending">Status</th>
+                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
+                                                style="width: auto; text-align: center;   " aria-label="Age: activate to sort column ascending">Periodo de Vigencia</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -210,109 +218,136 @@
                                                     data-placement="top" title="Habilitar"><i class="fas fa-check"></i></button>
                                                 <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
                                                     data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
-                                            <td><a href="#">1</a></td>
-                                            <td>Unidad</td>
-                                            <td>Unidad</td>
+                                            <td><a href="#">232212</a></td>
+                                            <td>Cinta para Estampado</td>
+                                            <td>1</td>
+                                            <td>Porcentual</td>
+                                            <td>Kilo</td>
                                             <td>Vigente</td>
+                                            <td>02/12/2016 - 11/01/2019</td>
+                                        </tr>
+                                        <tr role="row" class="odd ui-selectee">
+                                            <td><button class="btn btn-action btn-alta btn-sm" data-toggle="tooltip"
+                                                    data-placement="top" title="Deshabilitar"><i class="fas fa-level-down-alt"></i></button>
+                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
+                                                    data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
+                                            <td><a href="#">232212</a></td>
+                                            <td>Cinta para Estampado</td>
+                                            <td>1</td>
+                                            <td>Porcentual</td>
+                                            <td>Kilo</td>
+                                            <td>Vigente</td>
+                                            <td>02/12/2016 - 11/01/2019</td>
                                         </tr>
                                         <tr role="row" class="odd ui-selectee">
                                             <td><button class="btn btn-action btn-alta btn-sm" data-toggle="tooltip"
                                                     data-placement="top" title="Habilitar"><i class="fas fa-check"></i></button>
                                                 <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
                                                     data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
-                                            <td><a href="#">1</a></td>
-                                            <td>Unidad</td>
-                                            <td>Unidad</td>
+                                            <td><a href="#">232212</a></td>
+                                            <td>Cinta para Estampado</td>
+                                            <td>1</td>
+                                            <td>Porcentual</td>
+                                            <td>Kilo</td>
                                             <td>Vigente</td>
+                                            <td>02/12/2016 - 11/01/2019</td>
+                                        </tr>
+                                        <tr role="row" class="odd ui-selectee">
+                                            <td><button class="btn btn-action btn-alta btn-sm" data-toggle="tooltip"
+                                                    data-placement="top" title="Deshabilitar"><i class="fas fa-level-down-alt"></i></button>
+                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
+                                                    data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
+                                            <td><a href="#">232212</a></td>
+                                            <td>Cinta para Estampado</td>
+                                            <td>1</td>
+                                            <td>Porcentual</td>
+                                            <td>Kilo</td>
+                                            <td>Vigente</td>
+                                            <td>02/12/2016 - 11/01/2019</td>
                                         </tr>
                                         <tr role="row" class="odd ui-selectee">
                                             <td><button class="btn btn-action btn-alta btn-sm" data-toggle="tooltip"
                                                     data-placement="top" title="Habilitar"><i class="fas fa-check"></i></button>
                                                 <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
                                                     data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
-                                            <td><a href="#">1</a></td>
-                                            <td>Unidad</td>
-                                            <td>Unidad</td>
+                                            <td><a href="#">232212</a></td>
+                                            <td>Cinta para Estampado</td>
+                                            <td>1</td>
+                                            <td>Porcentual</td>
+                                            <td>Kilo</td>
                                             <td>Vigente</td>
+                                            <td>02/12/2016 - 11/01/2019</td>
                                         </tr>
                                         <tr role="row" class="odd ui-selectee">
                                             <td><button class="btn btn-action btn-alta btn-sm" data-toggle="tooltip"
-                                                    data-placement="top" title="Deshabilitar"><i class="fas fa-times"></i></button>
+                                                    data-placement="top" title="Deshabilitar"><i class="fas fa-level-down-alt"></i></button>
                                                 <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
                                                     data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
-                                            <td><a href="#">1</a></td>
-                                            <td>Unidad</td>
-                                            <td>Unidad</td>
+                                            <td><a href="#">232212</a></td>
+                                            <td>Cinta para Estampado</td>
+                                            <td>1</td>
+                                            <td>Porcentual</td>
+                                            <td>Kilo</td>
                                             <td>Vigente</td>
-                                        </tr>
-                                        <tr role="row" class="odd ui-selectee">
-                                            <td><button class="btn btn-action btn-alta btn-sm" data-toggle="tooltip"
-                                                    data-placement="top" title="Habilitar"><i class="fas fa-check"></i></button>
-                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
-                                                    data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
-                                            <td><a href="#">1</a></td>
-                                            <td>Unidad</td>
-                                            <td>Unidad</td>
-                                            <td>Vigente</td>
+                                            <td>02/12/2016 - 11/01/2019</td>
                                         </tr>
                                         <tr role="row" class="odd ui-selectee">
                                             <td><button class="btn btn-action btn-alta btn-sm" data-toggle="tooltip"
                                                     data-placement="top" title="Habilitar"><i class="fas fa-check"></i></button>
                                                 <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
                                                     data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
-                                            <td><a href="#">1</a></td>
-                                            <td>Unidad</td>
-                                            <td>Unidad</td>
+                                            <td><a href="#">232212</a></td>
+                                            <td>Cinta para Estampado</td>
+                                            <td>1</td>
+                                            <td>Porcentual</td>
+                                            <td>Kilo</td>
                                             <td>Vigente</td>
+                                            <td>02/12/2016 - 11/01/2019</td>
                                         </tr>
                                         <tr role="row" class="odd ui-selectee">
                                             <td><button class="btn btn-action btn-alta btn-sm" data-toggle="tooltip"
-                                                    data-placement="top" title="Deshabilitar"><i class="fas fa-times"></i></button>
+                                                    data-placement="top" title="Deshabilitar"><i class="fas fa-level-down-alt"></i></button>
                                                 <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
                                                     data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
-                                            <td><a href="#">1</a></td>
-                                            <td>Unidad</td>
-                                            <td>Unidad</td>
+                                            <td><a href="#">232212</a></td>
+                                            <td>Cinta para Estampado</td>
+                                            <td>1</td>
+                                            <td>Porcentual</td>
+                                            <td>Kilo</td>
                                             <td>Vigente</td>
-                                        </tr>
-                                        <tr role="row" class="odd ui-selectee">
-                                            <td><button class="btn btn-action btn-alta btn-sm" data-toggle="tooltip"
-                                                    data-placement="top" title="Deshabilitar"><i class="fas fa-times"></i></button>
-                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
-                                                    data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
-                                            <td><a href="#">1</a></td>
-                                            <td>Unidad</td>
-                                            <td>Unidad</td>
-                                            <td>Vigente</td>
+                                            <td>02/12/2016 - 11/01/2019</td>
                                         </tr>
                                         <tr role="row" class="odd ui-selectee">
                                             <td><button class="btn btn-action btn-alta btn-sm" data-toggle="tooltip"
                                                     data-placement="top" title="Habilitar"><i class="fas fa-check"></i></button>
                                                 <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
                                                     data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
-                                            <td><a href="#">1</a></td>
-                                            <td>Unidad</td>
-                                            <td>Unidad</td>
+                                            <td><a href="#">232212</a></td>
+                                            <td>Cinta para Estampado</td>
+                                            <td>1</td>
+                                            <td>Porcentual</td>
+                                            <td>Kilo</td>
                                             <td>Vigente</td>
+                                            <td>02/12/2016 - 11/01/2019</td>
                                         </tr>
                                         <tr role="row" class="odd ui-selectee">
                                             <td><button class="btn btn-action btn-alta btn-sm" data-toggle="tooltip"
-                                                    data-placement="top" title="Deshabilitar"><i class="fas fa-times"></i></button>
+                                                    data-placement="top" title="Deshabilitar"><i class="fas fa-level-down-alt"></i></button>
                                                 <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
                                                     data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
-                                            <td><a href="#">1</a></td>
-                                            <td>Unidad</td>
-                                            <td>Unidad</td>
+                                            <td><a href="#">232212</a></td>
+                                            <td>Cinta para Estampado</td>
+                                            <td>1</td>
+                                            <td>Porcentual</td>
+                                            <td>Kilo</td>
                                             <td>Vigente</td>
+                                            <td>02/12/2016 - 11/01/2019</td>
                                         </tr>
-
-
                                 </table>
                             </div>
                         </div>
                         <!--Paginador-->
-                        <div class="row">
-
+                        <div class="row mt-3">
                             <div class="col-sm-12 col-md-3 ">
                                 <div class="pagination-nav-info" id="   ">
                                     <ul class="pagination">
