@@ -164,40 +164,23 @@
                     <ol class="breadcrumb pt-0">
                         <li class="breadcrumb-item" style="color:red">Catálogos</li>
                         <li class="breadcrumb-item" style="color:red">Clientes</li>
-                        <li class="breadcrumb-item active" aria-current="page">Terceros</li>
+                        <li class="breadcrumb-item active" aria-current="page">Apoderados</li>
                     </ol>
                 </nav>
                 <!--MainContent-->
                 <div class="card mt-5">
                     <div class="card-header tab-header bg-danger text-white pb-0">
-                        <h5 class="title-section">Terceros</h5>
+                        <h5 class="title-section">Apoderados</h5>
                         <p style="margin-bottom:10px"></p>
                     </div>
                     <div class="card-body">
                         <div class="client-tag">Cliente: Ricardo Méndez Méndez</div>
-                        <div class="row">
 
-                            <div class="col-12 col-md-6">
-                                <div class="form-group">
-                                    <label for="exampleFormControlInput1">Tercero</label>
-                                    <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1"
-                                        placeholder="">
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-6">
-                                <div class="form-group">
-                                    <label for="exampleFormControlInput1">Status</label>
-                                    <select name="" id="" class="form-control form-control-sm">
-                                        <option value="|">Seleccione una opción</option>
-                                        <option value="|">Opcion 1</option>
-                                        <option value="|">Opcion 2</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
                         <div class=" mb-3 d-flex justify-content-end">
-                            <a class="btn btn-sm btn1 btn-danger mr-2" href="terceros-modifica.html" role="button"><i
-                                    class="fas fa-plus"></i>
+                                <a class="btn btn-sm btn1 btn-light mr-2" href="clientes.html" role="button"><i class="fas fa-chevron-left"></i>
+                                    Regresar</a>
+                            <a class="btn btn-sm btn1 btn-danger mr-2" href="clientes-apoderados-modificacion.html"
+                                role="button"><i class="fas fa-plus"></i>
                                 Agregar</a>
                         </div>
                         <!--table-->
@@ -211,22 +194,57 @@
                                                 style="width: auto; text-align: center;     " aria-label="Last name: activate to sort column ascending">Acciones
                                             </th>
                                             <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
-                                                style="width: auto; text-align: center;     " aria-label="Last name: activate to sort column ascending">Tercero
+                                                style="width: auto; text-align: center;     " aria-label="Last name: activate to sort column ascending">Número
+                                            </th>
+                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
+                                                style="width: auto; text-align: center;     " aria-label="Last name: activate to sort column ascending">Nombre
+                                            </th>
+                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
+                                                style="width: auto; text-align: center;     " aria-label="Last name: activate to sort column ascending">Puesto
+                                            </th>
+                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
+                                                style="width: auto; text-align: center;     " aria-label="Last name: activate to sort column ascending">Status
+                                            </th>
+                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
+                                                style="width: auto; text-align: center;     " aria-label="Last name: activate to sort column ascending">Inicio
                                             </th>
 
                                             <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
-                                                style="width: auto; text-align: center;   " aria-label="Age: activate to sort column ascending">Status</th>
+                                                style="width: auto; text-align: center;   " aria-label="Age: activate to sort column ascending">Fin</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr role="row" class="odd ui-selectee">
-                                            <td>
+                                            <td><button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
+                                                    data-placement="top" title="Habilitar"><i class="fas fa-check"></i></button>
+                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
+                                                    data-placement="top" title="Baja"><i class="fas fa-level-down-alt"></i></button>
                                                 <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
                                                     data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
-                                            <td><a href="#">9140 - Arturo Ocam Nover</a></td>
-                                            <td>Extranjero</td>
+                                            <td><a href="#">1256</a></td>
+                                            <td>María Guadalupe Ortega García</td>
+                                            <td>Representante Legal</td>
+                                            <td>Vigente</td>
+                                            <td>10/03/2015</td>
+                                            <td>23/12/2020</td>
 
                                         </tr>
+                                        <tr role="row" class="odd ui-selectee">
+                                            <td>
+                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
+                                                    data-placement="top" title="Habilitar"><i class="fas fa-check"></i></button>
+                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
+                                                    data-placement="top" title="Baja"><i class="fas fa-level-down-alt"></i></button>
+                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
+                                                    data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
+                                            <td><a href="#">1256</a></td>
+                                            <td>María Guadalupe Ortega García</td>
+                                            <td>Representante Legal</td>
+                                            <td>Vigente</td>
+                                            <td>10/03/2015</td>
+                                            <td>23/12/2020</td>
+                                        </tr>
+
 
                                 </table>
                             </div>
