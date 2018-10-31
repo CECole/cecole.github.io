@@ -163,90 +163,26 @@
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb pt-0">
                         <li class="breadcrumb-item" style="color:red">Catálogos</li>
-                        <li class="breadcrumb-item" style="color:red">Clientes</li>
-                        <li class="breadcrumb-item active" aria-current="page">Clientes</li>
+                        <li class="breadcrumb-item" style="color:red">Control Aduanero </li>
+                        <li class="breadcrumb-item" style="color:red">Agentes Aduanales </li>
+                        <li class="breadcrumb-item active" aria-current="page">Aduanas</li>
                     </ol>
                 </nav>
                 <!--MainContent-->
                 <div class="card mt-5">
                     <div class="card-header tab-header bg-danger text-white pb-0">
-                        <h5 class="title-section">Clientes</h5>
+                        <h5 class="title-section">Aduanas</h5>
                         <p style="margin-bottom:10px"></p>
                     </div>
                     <div class="card-body">
-
-
-                        <div class="row">
-                            <div class="col-12 col-md-6">
-                                <div class="form-group">
-                                    <label for="exampleFormControlInput1">Cliente Inicial</label>
-                                    <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1"
-                                        placeholder="">
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-6">
-                                <div class="form-group">
-                                    <label for="exampleFormControlInput1">Cliente Final</label>
-                                    <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1"
-                                        placeholder="">
-                                </div>
-                            </div>
-                        </div>
-                        <span class="mini-title">Rango de Fechas de Inicio de Operaciones</span>
-                        <div class="row">
-                            <div class="col-12 col-md-6">
-                                <label for="exampleFormControlInput1">Inicio</label>
-                                <div class="input-group input-group-sm mb-3">
-                                    <input type="text" class="form-control" placeholder="" aria-label="DD/MM/AAAA"
-                                        aria-describedby="basic-addon2">
-                                    <div class="input-group-append">
-                                        <span class="input-group-text" id="basic-addon2"><i class="fas fa-calendar-alt"></i></span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-6">
-                                <label for="exampleFormControlInput1">Final</label>
-                                <div class="input-group input-group-sm mb-3">
-                                    <input type="text" class="form-control" placeholder="" aria-label="DD/MM/AAAA"
-                                        aria-describedby="basic-addon2">
-                                    <div class="input-group-append">
-                                        <span class="input-group-text" id="basic-addon2"><i class="fas fa-calendar-alt"></i></span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-6">
-                                <div class="form-group">
-                                    <label for="exampleFormControlInput1">Status Cliente</label>
-                                    <select name="" id="" class="form-control form-control-sm">
-                                        <option value="">Seleccione una opción</option>
-                                        <option value="">Option 1</option>
-                                        <option value="">Option 1</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-6">
-                                <div class="form-group">
-                                    <label for="exampleFormControlInput1">Filtro de Clientes por Nombre</label>
-                                    <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1"
-                                        placeholder="">
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-12">
-                                <div class="form-group">
-                                    <label for="exampleFormControlInput1">Catálogo de Clientes</label>
-                                    <select name="" id="" class="form-control form-control-sm">
-                                        <option value="">Seleccione una opción</option>
-                                        <option value="">Option 1</option>
-                                        <option value="">Option 1</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
+                        <div class="client-tag  ">Agente Aduanal 501 - Rodolfo Vicente Castañeda Zúñiga</div>
+                  
                         <div class=" mb-3 d-flex justify-content-end">
-                            <a class="btn btn-sm btn1 btn-dark mr-2" href="clientes-modificacion.html" role="button"><i
-                                    class="fas fa-search"></i>
-                                Buscar</a>
-                            <a class="btn btn-sm btn1 btn-danger mr-2" href="clientes-modificacion.html" role="button"><i
+                           
+                            <a class="btn btn-sm btn1 btn-light mr-2" href="agentes-aduanales.html" role="button"><i
+                                    class="fas fa-chevron-left"></i>
+                                Regresar</a>
+                            <a class="btn btn-sm btn1 btn-danger mr-2" href="agentes-aduanales-aduanas-modificacion.html" role="button"><i
                                     class="fas fa-plus"></i>
                                 Agregar</a>
                         </div>
@@ -254,62 +190,46 @@
                         <div class="row">
                             <div class="col-sm-12" style="overflow-x:auto">
                                 <table id="example" class="table table-sm table-hover nowrap dataTable no-footer dtr-inline collapsed ui-selectable"
-                                    style=" text-align: center; width: 150%" role="grid">
+                                    style=" text-align: center; " role="grid">
                                     <thead>
                                         <tr role="row" class="ui-selectee">
                                             <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
-                                                style="width: 330px; text-align: center;     " aria-label="Last name: activate to sort column ascending">Acciones
+                                                style="width: auto; text-align: center;     " aria-label="Last name: activate to sort column ascending">Acciones
                                             </th>
                                             <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
-                                                style="width: auto; text-align: center;     " aria-label="Last name: activate to sort column ascending">Número
+                                                style="width: auto; text-align: center;     " aria-label="Last name: activate to sort column ascending">Aduana
                                             </th>
-                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
-                                                style="width: 80; text-align: center;   " aria-label="Position: activate to sort column ascending">Cliente</th>
-                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
-                                                style="width: auto; text-align: center;    " aria-label="Office: activate to sort column ascending">Inicio</th>
+                             
                                             <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
                                                 style="width: auto; text-align: center;   " aria-label="Age: activate to sort column ascending">Status</th>
-                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1"
-                                                style="width: auto; text-align: center;   " aria-label="Age: activate to sort column ascending">Baja</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr role="row" class="odd ui-selectee">
-                                            <td><a href="datos-cliente.html" class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
-                                                    data-placement="top" title="Datos del Cliente" style="color:#000"><i class="fas fa-info"></i></a>
-                                                <a href="" class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
-                                                    data-placement="top" title="Proveedores" style="color:#000"><i class="fas fa-hand-paper"></i></a>
-                                                <a href="clientes-distribuidores.html" class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
-                                                    data-placement="top" title="Distribuidores" style="color:#000"><i class="fas fa-truck"></i></a>
-                                                <a href="clientes-terceros.html" class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
-                                                    data-placement="top" title="Terceros" style="color:#000"><i class="fas fa-users"></i></a>
-                                                <a href="clientes-contactos.html" class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
-                                                    data-placement="top" title="Contactos" style="color:#000"><i class="fas fa-envelope"></i></a>
-                                                <a href="clientes-apoderados.html" class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
-                                                    data-placement="top" title="Apoderados" style="color:#000"><i class="fas fa-user-shield"></i></a>
-                                                <a href="" class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
-                                                    data-placement="top" title="Validar" style="color:#000"><i class="fas fa-check-double"></i></a>
-                                                <a href="" class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
-                                                    data-placement="top" title="Baja" style="color:#000"><i class="fas fa-level-down-alt"></i></a>
-                                                <a href="matriz-riesgo.html" class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
-                                                    data-placement="top" title="Matriz de Riesgo" style="color:#000"><i class="fas fa-exclamation"></i></a>
-                                                <a href="" class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
-                                                    data-placement="top" title="Eliminar" style="color:#000"><i class="fas fa-trash-alt"></i></a>
-                                            </td>
-                                            <td><a href="#">842</a></td>
-                                            <td>Persia Fontana Torres (Pertenece al grupo: 111111)</td>
-                                            <td>24/10/2018</td>
-                                            <td>Baja</td>
-                                            <td>16/12/2018</td>
+                                            <td><button class="btn btn-action btn-alta btn-sm" data-toggle="tooltip"
+                                                    data-placement="top" title="Habilitar"><i class="fas fa-check"></i></button>
+                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
+                                                    data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
+                                            <td><a href="#">84</a></td>
+                  
+                                            <td>Vigente</td>
                                         </tr>
-                                
-
-
+                                        <tr role="row" class="odd ui-selectee">
+                                            <td><button class="btn btn-action btn-alta btn-sm" data-toggle="tooltip"
+                                                    data-placement="top" title="Deshabilitar"><i class="fas fa-times"></i></button>
+                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
+                                                    data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
+                                            <td><a href="#">118</a></td>
+                      
+                                  
+                                            <td>Vigente</td>
+                                        </tr>
+                                   
                                 </table>
                             </div>
                         </div>
                         <!--Paginador-->
-                        <div class="row mt-3">
+                        <div class="row">
 
                             <div class="col-sm-12 col-md-3 ">
                                 <div class="pagination-nav-info" id="   ">
