@@ -220,6 +220,14 @@ table th, .table td {
     color: #F70000;
 }
 
+.mini-li{
+    font-size: .7rem;
+    color: #000;
+    text-decoration: none;
+    list-style: none;
+    padding: 0px
+}
+
 .badge {
     display: inline;
     font-family: "Gotham-light";
