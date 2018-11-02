@@ -163,44 +163,118 @@
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb pt-0">
                         <li class="breadcrumb-item" style="color:red">Reportes </li>
-                        <li class="breadcrumb-item" style="color:red">Rep. Generales  </li>
-                       
-                        <li class="breadcrumb-item active" aria-current="page">Código Absa o Acting </li>
+                        <li class="breadcrumb-item" style="color:red">Internos </li>
+                        <li class="breadcrumb-item" style="color:red">Cartas de Cupo </li>
+
+                        <li class="breadcrumb-item active" aria-current="page">Donaciones/Destrucciones </li>
                     </ol>
                 </nav>
                 <!--MainContent-->
                 <div class="card mt-5">
                     <div class="card-header tab-header bg-danger text-white pb-0">
-                        <h5 class="title-section">Código Absa o Acting </h5>
+                        <h5 class="title-section">Donaciones/Destrucciones</h5>
                         <p style="margin-bottom:10px"></p>
                     </div>
                     <div class="card-body">
+
+
                         <div class="row">
-                            <div class="row col-12 justify-content-around align-items-end">
-                                <div class="col-12 col-md-3">
-                                    <label for="">Tipo de Bodega</label><br>
-                                    <div class="form-check">
-                                        <label class="check-label">
-                                            <input type="checkbox" name="check"> <span class="label-text">Hab
-                                                Fiscal</span>
-                                        </label>
-                                    </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Folio Inicial</label>
+                                    <input type="text" class="form-control form-control-sm">
                                 </div>
-                                <div class="col-12 col-md-3">
-                                    <div class="form-check">
-                                        <label class="check-label">
-                                            <input type="checkbox" name="check"> <span class="label-text">Hab
-                                                Nacional</span>
-                                        </label>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Folio Final</label>
+                                    <input type="text" class="form-control form-control-sm">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Orden Salida Inicial</label>
+                                    <input type="text" class="form-control form-control-sm">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Orden Salida Final</label>
+                                    <input type="text" class="form-control form-control-sm">
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-6">
+                                <label for="exampleFormControlInput1">Fecha OS Inicial</label>
+                                <div class="input-group input-group-sm mb-3">
+                                    <input type="text" class="form-control" placeholder="" aria-label="DD/MM/AAAA"
+                                        aria-describedby="basic-addon2">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text" id="basic-addon2"><i class="fas fa-calendar-alt"></i></span>
                                     </div>
                                 </div>
                             </div>
+                            <div class="col-12 col-md-6">
+                                <label for="exampleFormControlInput1">Fecha OS Final</label>
+                                <div class="input-group input-group-sm mb-3">
+                                    <input type="text" class="form-control" placeholder="" aria-label="DD/MM/AAAA"
+                                        aria-describedby="basic-addon2">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text" id="basic-addon2"><i class="fas fa-calendar-alt"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-6">
+                                <label for="exampleFormControlInput1">Fecha de Informe Inicial</label>
+                                <div class="input-group input-group-sm mb-3">
+                                    <input type="text" class="form-control" placeholder="" aria-label="DD/MM/AAAA"
+                                        aria-describedby="basic-addon2">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text" id="basic-addon2"><i class="fas fa-calendar-alt"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <label for="exampleFormControlInput1">Fecha de Informe Final</label>
+                                <div class="input-group input-group-sm mb-3">
+                                    <input type="text" class="form-control" placeholder="" aria-label="DD/MM/AAAA"
+                                        aria-describedby="basic-addon2">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text" id="basic-addon2"><i class="fas fa-calendar-alt"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Movimiento</label>
+                                    <input type="text" class="form-control form-control-sm">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Tipo</label>
+                                    <input type="text" class="form-control form-control-sm">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Status</label>
+                                    <input type="text" class="form-control form-control-sm">
+                                </div>
+                            </div>
+
+                         
+
+
+
                         </div>
-                        <a href="">Descargar Último Archivo Generado</a>
-                        <div class="  d-flex justify-content-end">
-                            <a class="btn btn-sm btn1 btn-danger" href="#" role="button"><i class="fas fa-cog"></i>
+                        <div class=" mb-3 d-flex justify-content-end">
+                           
+                            <a class="btn btn-sm btn1 btn-danger" href="#.html" role="button"><i class="fas fa-cog"></i>
                                 Generar</a>
                         </div>
+                   
                     </div>
                 </div>
             </div>

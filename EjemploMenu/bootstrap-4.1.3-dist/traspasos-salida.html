@@ -163,40 +163,116 @@
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb pt-0">
                         <li class="breadcrumb-item" style="color:red">Reportes </li>
-                        <li class="breadcrumb-item" style="color:red">Rep. Generales  </li>
-                       
-                        <li class="breadcrumb-item active" aria-current="page">Código Absa o Acting </li>
+                        <li class="breadcrumb-item" style="color:red">Internos </li>
+                        <li class="breadcrumb-item" style="color:red">Cartas de Cupo </li>
+                        <li class="breadcrumb-item" style="color:red">Traslados y Traspasos </li>
+
+                        <li class="breadcrumb-item active" aria-current="page">Traspasos de Salida </li>
                     </ol>
                 </nav>
                 <!--MainContent-->
                 <div class="card mt-5">
                     <div class="card-header tab-header bg-danger text-white pb-0">
-                        <h5 class="title-section">Código Absa o Acting </h5>
+                        <h5 class="title-section">Traspasos de Salida </h5>
                         <p style="margin-bottom:10px"></p>
                     </div>
                     <div class="card-body">
+
                         <div class="row">
-                            <div class="row col-12 justify-content-around align-items-end">
-                                <div class="col-12 col-md-3">
-                                    <label for="">Tipo de Bodega</label><br>
-                                    <div class="form-check">
-                                        <label class="check-label">
-                                            <input type="checkbox" name="check"> <span class="label-text">Hab
-                                                Fiscal</span>
-                                        </label>
-                                    </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Año Inicial</label>
+                                    <input type="text" class="form-control form-control-sm">
                                 </div>
-                                <div class="col-12 col-md-3">
-                                    <div class="form-check">
-                                        <label class="check-label">
-                                            <input type="checkbox" name="check"> <span class="label-text">Hab
-                                                Nacional</span>
-                                        </label>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Año Final</label>
+                                    <input type="text" class="form-control form-control-sm">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Folio Inicial</label>
+                                    <input type="text" class="form-control form-control-sm">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Folio Final</label>
+                                    <input type="text" class="form-control form-control-sm">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <label for="exampleFormControlInput1">Fecha Inicial</label>
+                                <div class="input-group input-group-sm mb-3">
+                                    <input type="text" class="form-control" aria-label="DD/MM/AAAA" aria-describedby="basic-addon2">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text" id="basic-addon2"><i class="fas fa-calendar-alt"></i></span>
                                     </div>
                                 </div>
                             </div>
+                            <div class="col-12 col-md-6">
+                                <label for="exampleFormControlInput1">Fecha Final</label>
+                                <div class="input-group input-group-sm mb-3">
+                                    <input type="text" class="form-control" aria-label="DD/MM/AAAA" aria-describedby="basic-addon2">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text" id="basic-addon2"><i class="fas fa-calendar-alt"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Cliente Inicial</label>
+                                    <input type="text" class="form-control form-control-sm">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Cliente Final</label>
+                                    <input type="text" class="form-control form-control-sm">
+                                </div>
+                            </div>
+
                         </div>
-                        <a href="">Descargar Último Archivo Generado</a>
+
+
+                        <div class="row">
+
+                            <div class="col-12 col-md-4">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Status</label>
+                                    <select name="" id="" class="form-control form-control-sm">
+                                        <option value="">Selecciona una opción</option>
+                                        <option value=""></option>
+                                        <option value=""></option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Mostrar Acuse</label>
+                                    <select name="" id="" class="form-control form-control-sm">
+                                        <option value="">Selecciona una opción</option>
+                                        <option value=""></option>
+                                        <option value=""></option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Grupo</label>
+                                    <select name="" id="" class="form-control form-control-sm">
+                                        <option value="">Selecciona una opción</option>
+                                        <option value=""></option>
+                                        <option value=""></option>
+                                    </select>
+                                </div>
+                            </div>
+
+
+                        </div>
+
                         <div class="  d-flex justify-content-end">
                             <a class="btn btn-sm btn1 btn-danger" href="#" role="button"><i class="fas fa-cog"></i>
                                 Generar</a>

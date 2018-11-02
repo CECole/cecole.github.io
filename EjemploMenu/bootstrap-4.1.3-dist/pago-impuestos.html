@@ -163,44 +163,191 @@
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb pt-0">
                         <li class="breadcrumb-item" style="color:red">Reportes </li>
-                        <li class="breadcrumb-item" style="color:red">Rep. Generales  </li>
-                       
-                        <li class="breadcrumb-item active" aria-current="page">Código Absa o Acting </li>
+                        <li class="breadcrumb-item" style="color:red">Internos </li>
+
+                        <li class="breadcrumb-item active" aria-current="page">Pago de Impuestos </li>
                     </ol>
                 </nav>
                 <!--MainContent-->
                 <div class="card mt-5">
                     <div class="card-header tab-header bg-danger text-white pb-0">
-                        <h5 class="title-section">Código Absa o Acting </h5>
+                        <h5 class="title-section">Pago de Impuestos </h5>
                         <p style="margin-bottom:10px"></p>
                     </div>
                     <div class="card-body">
+                        <span class="mini-title">Rango de Folio de Salidas</span>
                         <div class="row">
-                            <div class="row col-12 justify-content-around align-items-end">
-                                <div class="col-12 col-md-3">
-                                    <label for="">Tipo de Bodega</label><br>
-                                    <div class="form-check">
-                                        <label class="check-label">
-                                            <input type="checkbox" name="check"> <span class="label-text">Hab
-                                                Fiscal</span>
-                                        </label>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Folio Inicial</label>
+                                    <input type="text" class="form-control form-control-sm">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Folio Final</label>
+                                    <input type="text" class="form-control form-control-sm">
+                                </div>
+                            </div>
+                        </div>
+                       
+                        <span class="mini-title">Rango de Fechas de Emisión </span>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <label for="exampleFormControlInput1">Fecha Inicial</label>
+                                <div class="input-group input-group-sm mb-3">
+                                    <input type="text" class="form-control" aria-label="DD/MM/AAAA" aria-describedby="basic-addon2">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text" id="basic-addon2"><i class="fas fa-calendar-alt"></i></span>
                                     </div>
                                 </div>
-                                <div class="col-12 col-md-3">
-                                    <div class="form-check">
-                                        <label class="check-label">
-                                            <input type="checkbox" name="check"> <span class="label-text">Hab
-                                                Nacional</span>
-                                        </label>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <label for="exampleFormControlInput1">Fecha Final</label>
+                                <div class="input-group input-group-sm mb-3">
+                                    <input type="text" class="form-control" aria-label="DD/MM/AAAA" aria-describedby="basic-addon2">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text" id="basic-addon2"><i class="fas fa-calendar-alt"></i></span>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <a href="">Descargar Último Archivo Generado</a>
+                      
+                        <span class="mini-title">Rango de Clientes</span>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Inicial</label>
+                                    <input type="text" class="form-control form-control-sm">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Final</label>
+                                    <input type="text" class="form-control form-control-sm">
+                                </div>
+                            </div>
+                        </div>
+                     
+                        
+                        <div class="row align-items-center">
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Agente Aduanal</label>
+                                    <input type="text" class="form-control form-control-sm">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                    <div class="form-check">
+                                        <label class="check-label">
+                                            <input type="checkbox" name="check"> <span class="label-text">Incluir Pedimentos K2 (retorno) en el Reporte</span>
+                                        </label>
+                                    </div>
+                                </div>
+                            
+                        </div>
+                      
+
+                        <div class="row">
+                                
+
+                            <div class="row col-12 justify-content-between align-items-end">
+
+                                <div class="col-12 col-md-6">
+                                    <label for="">Forma de Pago</label><br>
+                                    <div class="form-check">
+                                        <label class="check-label">
+                                            <input type="checkbox" name="check"> <span class="label-text">Cargo en
+                                                Cuenta Banorte</span>
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-md-6">
+                                    <div class="form-check">
+                                        <label class="check-label">
+                                            <input type="checkbox" name="check"> <span class="label-text">Cargo en
+                                                Cuenta de Otro Banco</span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="form-check">
+                                        <label class="check-label">
+                                            <input type="checkbox" name="check"> <span class="label-text">Con
+                                                Financimiento</span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="form-check">
+                                        <label class="check-label">
+                                            <input type="checkbox" name="check"> <span class="label-text">Con Nota de
+                                                Crédito</span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="form-check">
+                                        <label class="check-label">
+                                            <input type="checkbox" name="check"> <span class="label-text">Depósito</span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="form-check">
+                                        <label class="check-label">
+                                            <input type="checkbox" name="check"> <span class="label-text">Efectivo</span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="form-check">
+                                        <label class="check-label">
+                                            <input type="checkbox" name="check"> <span class="label-text">Pago
+                                                Electrónico</span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="form-check">
+                                        <label class="check-label">
+                                            <input type="checkbox" name="check"> <span class="label-text">Por Cuenta de
+                                                Almacenadora Banorte</span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="form-check">
+                                        <label class="check-label">
+                                            <input type="checkbox" name="check"> <span class="label-text">Pago
+                                                Electrónico por Cuenta de Almacenamiento Banorte</span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Grupo</label>
+                                    <select name="" id="" class="form-control form-control-sm">
+                                        <option value="">Seleccione una opción</option>
+                                        <option value="">Option 1</option>
+                                        <option value="">Option 1</option>
+                                    </select>
+                                </div>
+                            </div>
+                          
+
+                        </div>
+                      
+                        <span class="mini-li">*Ordenado por Fecha - Cliente - Distribuidor - No. de Salida</s>
                         <div class="  d-flex justify-content-end">
+
                             <a class="btn btn-sm btn1 btn-danger" href="#" role="button"><i class="fas fa-cog"></i>
                                 Generar</a>
                         </div>
+
                     </div>
                 </div>
             </div>
