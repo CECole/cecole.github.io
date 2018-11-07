@@ -339,3 +339,7 @@ table th, .table td {
     font-size: 0.75rem;
 
 }
+
+output {
+    font-size: .85rem;
+}
