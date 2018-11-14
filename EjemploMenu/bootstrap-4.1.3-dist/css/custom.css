@@ -1,24 +1,28 @@
 @font-face {
     font-family: "Gotham-light";
-    src: url(../fonts/goth-font/Gotham-Light.otf) format("opentype");
-    src: url(../fonts/goth-font/GothamLight.ttf) format("truetype");
+    src: url(../fonts/gotham-font/Gotham-Light.woff) format("woff");
+    /*src: url(../fonts/goth-font/Gotham-Light.otf) format("opentype");
+    src: url(../fonts/goth-font/GothamLight.ttf) format("truetype");*/
 }
 
 @font-face {
     font-family: "Gotham_bold";
-    src: url(../fonts/goth-font/GothamBold.ttf) format("truetype");
-    src: url(../fonts/goth-font/Gotham-Bold.otf) format("opentype");
+    src: url(../fonts/gotham-font/GothamBold.woff) format("woff");
+    /*src: url(../fonts/goth-font/GothamBold.ttf) format("truetype");
+    src: url(../fonts/goth-font/Gotham-Bold.otf) format("opentype");*/
 }
 
 @font-face {    
     font-family: "Gotham";
-    src: url(../fonts/goth-font/GothamBook.ttf) format("opentype");
+    src: url(../fonts/gotham-font/GothamBook.woff) format("woff");
+    /*src: url(../fonts/goth-font/GothamBook.ttf) format("opentype");*/
 }
 
 @font-face {    
     font-family: "Gotham_medium";
+    src: url(../fonts/gotham-font/GothamMedium.woff) format("woff");/*
     src: url(../fonts/goth-font/GothamMedium.otf) format("opentype");
-    src: url(../fonts/goth-font/GothamMedium.ttf) format("truetype");
+    src: url(../fonts/goth-font/GothamMedium.ttf) format("truetype");*/
 }
 
 body{
@@ -31,15 +35,20 @@ body{
 }
 
 .navbar {
-    background: #F70000;
-    background-image: url(../img/grecas.png);
-    background-position: top;
-    background-repeat: repeat-x;
     color: #fff;
+    background: #eb0029;
+    line-height: 28px;
+    background-image: url(../img/bg-header.png);
+    background-size: 43.5px 64px;
+    height: 64px;
+    z-index: 300;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .bg-danger {
-    background-color: #F70000 !important;
+    background-color: #ff671b !important;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -137,7 +146,7 @@ th {
 }
 
 .page-link{
-    color: #F70000;
+    color: #b01657;
     font-size: .7rem;
     padding-bottom: .4rem;
     
@@ -151,8 +160,16 @@ th {
 .page-item.active .page-link {
     z-index: 1;
     color: #fff;
-    background-color: #F70000;
-    border-color: #F70000;
+    background-color: #ff671b;
+    border-color: #ff671b;
+}
+
+li.breadcrumb-item {
+    color: #b01657;
+}
+
+li.breadcrumb-item.active {
+    color: #6c757d;
 }
 
 .btn-danger{
