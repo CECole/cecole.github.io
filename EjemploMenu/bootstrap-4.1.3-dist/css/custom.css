@@ -27,11 +27,18 @@
 
 body{
     font-family: "Gotham";
-    background:#FBFBFB;
-    background: #FBFBFB;
-    background-image: url("../img/pattern-private.png");
+    /*background:#FBFBFB;*/
+    background: url(../img/pattern-bg.png);
+    background-position: bottom;
+}
+
+#background {
+    min-height: 360px;
+    padding: 25px;
+    background: url(../img/pattern-bg.png);
     background-repeat: repeat-x;
-    background-position: top;
+    background-size: 521px 174px;
+    margin-bottom: -353px;
 }
 
 .navbar {
@@ -79,14 +86,26 @@ body{
     background-color: #ff671b !important;
 }
 
+.bg-outline-white {
+    background-color: #eb0029 !important;
+    border-color: #ffffff;
+}
+
+.bg-outline-white:hover {
+    background-color: #ff671b !important;
+    border-color: #eb0029;
+}
+
 .navbar-dark .navbar-nav .nav-link {
     color: rgba(255, 255, 255, 1);
     
 }
 
 nav.nav.nav-underline {
-    background: #f7f7f7;
+    background-color: #fcfcfc;
     font-size: .9rem;
+    color: #4e4044;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2); 
   
 }
 .main-title{
@@ -139,6 +158,13 @@ a{
 
 tr {
     font-size: .8rem;
+}
+
+.btn-out {
+    padding: 0px 20px;
+    font-size: 0.875rem;
+    line-height: 1.25;
+    border-radius: 0.2rem;
 }
 
 .btn-action {
@@ -407,11 +433,12 @@ li {
 li a {
     display: block;
     color: white;
-    text-align: center;
+    /*text-align: center;*/
     padding: 14px 16px;
     text-decoration: none;
 }
 
-li a:hover {
-    background-color: #111;
+.fa, .fas {
+    color: #eb0029;
+    padding-right: 7px;
 }
