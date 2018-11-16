@@ -29,7 +29,8 @@ body{
     font-family: "Gotham";
     /*background:#FBFBFB;*/
     background: url(../img/pattern-bg.png);
-    background-position: bottom;
+    background-position: center;
+    background-size: cover;
 }
 
 #background {
