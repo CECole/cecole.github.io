@@ -166,8 +166,6 @@ margin-bottom: 5px;
 }
 
 .metismenu .has-arrow::after {
-    -webkit-transform: rotate(-135deg) translateY(-50%);
-    transform: rotate(-135deg) translateY(-50%);
   position: absolute;
   content: '';
   width: .5em;
@@ -176,8 +174,8 @@ margin-bottom: 5px;
   border-style: solid;
   border-color: initial;
   right: 1em;
-  /*-webkit-transform: rotate(-45deg) translate(0, -50%);
-  transform: rotate(-45deg) translate(0, -50%);*/
+  -webkit-transform: rotate(-45deg) translate(0, -50%);
+  transform: rotate(-45deg) translate(0, -50%);
   -webkit-transform-origin: top;
   transform-origin: top;
   top: 50%;
