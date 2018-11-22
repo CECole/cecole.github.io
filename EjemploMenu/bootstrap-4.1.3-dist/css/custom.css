@@ -95,8 +95,9 @@ body{
 }
 
 .bg-outline-white:hover {
-    background-color: #ff671b !important;
+    background-color: #ffffff !important;
     border-color: #eb0029;
+    color: #eb0029;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -446,6 +447,6 @@ li a {
     padding-right: 7px;
 }
 
-.fa-plus, .fa-times, .fa-save:before {
+.fa-plus, .fa-times, .fa-save, .fa-search {
     color: #ffffff;
 }
