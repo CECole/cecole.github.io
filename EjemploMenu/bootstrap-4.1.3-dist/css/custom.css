@@ -442,10 +442,10 @@ li a {
 }
 
 .fa, .fas {
-    color: #ffffff;
+    color: #eb0029;
     padding-right: 7px;
 }
 
-.fa-plus {
+.fa-plus, .fa-times, .fa-save:before {
     color: #ffffff;
 }
