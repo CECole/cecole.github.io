@@ -92,6 +92,7 @@ body{
 .bg-outline-white {
     background-color: #eb0029 !important;
     border-color: #ffffff;
+    color: #ffffff;
 }
 
 .bg-outline-white:hover {
