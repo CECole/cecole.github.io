@@ -1,0 +1,649 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>Banorte</title>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/solid.css">
+    <link rel="stylesheet" href="css/regular.css">
+    <link rel="stylesheet" href="css/metisMenu.min.css">
+    <link rel="stylesheet" href="css/checkbox.css">
+    <link rel="stylesheet" href="css/mm-vertical.css">
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+
+</head>
+
+<body>
+	<!-- Nav -->
+    <nav class="navbar navbar-dark sticky-top  flex-md-nowrap p-0">
+        <div class="container">
+            <a class="navbar-brand col-sm-3 col-md-2 mr-0 ml-2" href="#"><img src="img/logo-bn.png" alt="" style="height: 40px;"></a>
+            <ul class="navbar-nav px-1">
+                <li class="nav-item text-nowrap">
+                    <a class="logout btn btn-out btn1 bg-outline-white " href="#" data-toggle="tooltip" title="Salir">SALIR</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--Underline-->
+    <nav class="nav nav-underline justify-content-between " style="margin-top: 60px;">
+        <div class="container">
+            <div class="row ">
+                <div class="col-5 align-self-center">
+                    <p style=" margin-bottom:0px; margin-left: 83px; font-size:.9rem; color: #eb0029;">SISTEMA INTEGRAL<br>DE ALMACENADORA</p>
+                </div>
+                <div class="col-7 d-flex justify-content-end">
+                    <div class="col col-md-auto px-0">
+                        <a class="nav-link acceso-info" href="#" style="text-align:right">
+                            <p class="admin-title">José Manuel
+                        Jiménez Lobato -
+                        A7537C265</p>
+                            <p style="margin-bottom:0px; font-size:.7rem">Último acceso 25/07/2018 15:30 hrs.</p>
+                        </a>
+                    </div>
+                    <div class=" col col-md-auto px-0 align-self-center" style="text-align:right">
+                        <a href=""><i class="far fa-bell fa-2x"><span class="badge  badge-danger">88</span></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--Contenedor-->
+    <div id="background"></div>
+    <div class="container contenedor">
+        <div class="row pt-3">
+            <!--Sidebar-->
+            <div class="col-3 pr-0">
+                <nav class="col-12 sidebar-nav p-0">
+                    <aside class="col-md-12">
+                        <nav class="sidebar-nav">
+                            <ul class="metismenu" id="menu1">
+                                <p class="admin-title ml-4 mt-3"><b>Administrador de Usuarios</b></p>
+                                <li class="mm-active">
+                                    <a href="index.html">
+                                        <i class="fas fa-home"></i>
+                                        Inicio
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="has-arrow" href="#" aria-expanded="false"><i class="fas fa-folder-open"></i>
+                                        Catálogos</a>
+                                    <ul aria-expanded="false" class="collapse" href="#">
+                                        <li>
+                                            <a class="has-arrow" href="#" aria-expanded="false">Administración del Sistema</a>
+                                            <ul aria-expanded="false" class="collapse">
+                                                <li><a href="usuarios.html">Usuarios</a></li>
+                                                <li><a href="reproceso-buzon-e.html">Reproceso Histórico Buzón-E</a></li>
+                                                <li><a href="parametros-sistema.html">Parámetros del Sistema</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a class="has-arrow" href="#" aria-expanded="false">Generales</a>
+                                            <ul aria-expanded="false" class="collapse">
+                                                <li><a href="paises.html">Países</a></li>
+                                                <li><a href="estados.html">Estados</a></li>
+                                                <li><a href="ciudades.html">Ciudades</a></li>
+                                                <li><a href="apoderados-almacenadora.html"> Apoderados de Almacenadora</a></li>
+                                                <li><a href="dias-inha.html">Días Inhábiles</a></li>
+                                                <li><a href="puestos.html">Puestos</a></li>
+                                                <li><a href="correos-electronicos.html">Avisos de vencimiento de líneas de habilitación (E-MAIL)</a></li>
+                                                <li><a href="monedas.html">Monedas</a></li>
+                                                <li><a href="tipos-persona.html">Tipos de Personalidad Fiscal</a></li>
+                                                <li><a href="apoderados-almacenadora-poderes.html">Poderes para Apoderados de Almacenadora</a></li>
+                                                <li><a href="apoderados-almacenadora-firma-digital.html">Apoderados Almacenadora - Firma Digital</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a class="has-arrow" href="#" aria-expanded="false">Clientes</a>
+                                            <ul aria-expanded="false" class="collapse">
+                                                <li><a href="clientes.html">Clientes</a></li>
+                                                <li><a href="clientes-distribuidores.html">Distribuidores</a></li>
+                                                <li><a href="clientes-terceros.html">Terceros</a></li>
+                                                <li><a href="cuentas-bancarias.html">Cuentas Bancarias</a></li>
+                                                <li><a href="poderes-clientes.html">Poderes para Clientes</a></li>
+                                                <li><a href="grupos.html">Grupos</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a class="has-arrow" href="#" aria-expanded="false">Comerciales</a>
+                                            <ul aria-expanded="false" class="collapse">
+                                                <li><a href="tipos-servicios.html">Tipos de Servicio</a></li>
+                                                <li><a href="servicios.html">Servicios</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a class="has-arrow" href="#" aria-expanded="false">Inventario</a>
+                                            <ul aria-expanded="false" class="collapse">
+                                                <li><a href="bodegas.html">Bodegas</a></li>
+                                                <li><a href="tipos-local.html">Tipos de Local</a></li>
+                                                <li><a href="tipos-empaque.html">Tipos de Empaque</a></li>
+                                                <li><a href="transportistas.html">Transportistas</a></li>
+                                                <li><a href="unidades-medida.html">Unidades de Medida</a></li>
+                                                <li><a href="notificacion-ultima-salida.html">Notificación de Alerta Última Salida</a></li>
+                                                <li><a href="productos.html">Productos</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a class="has-arrow" href="#" aria-expanded="false">Control Aduanero </a>
+                                            <ul aria-expanded="false" class="collapse">
+                                                <li><a href="tipo-cambio.html">Tipos de cambio</a></li>
+                                                <li><a href="aduanas.html">Aduanas</a></li>
+                                                <li><a href="agentes-aduanales.html">Agentes Aduanales</a></li>
+                                                <li><a href="fracciones-arancelarias.html">Fracciones Arancelarias para Importación</a></li>
+                                                <li><a href="sectores-prosec.html">Sector PROSEC</a></li>
+                                                <li><a href="cliente-precio.html">Cliente-Precio Estimado</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a class="has-arrow" href="#" aria-expanded="false">Administración</a>
+                                            <ul aria-expanded="false" class="collapse">
+                                                <li><a href="tipos-cambio-facturar.html">Tipos de cambio para Facturar</a></li>
+                                                <li><a href="polizas-seguro.html">Pólizas de Seguro</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a class="has-arrow" href="#" aria-expanded="false">Certificación</a>
+                                            <ul aria-expanded="false" class="collapse">
+                                                <li><a href="tipos-cambio-certificar.html">Tipos de cambio para Certificar</a></li>
+                                                <li><a href="series-entidad.html">Series por Entidad</a></li>
+                                                <li><a href="entidades-inegi.html">Entidades – INEGI</a></li>
+                                                <li><a href="tasas-referencia.html">Tasas de Referencia</a></li>
+                                                <li><a href="tenedores-certificado.html">Tenedores de Certificado</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a class="has-arrow" href="#" aria-expanded="false">Externos</a>
+                                            <ul aria-expanded="false" class="collapse">
+                                                <li><a class="has-arrow">SAAI M3 </a>
+                                                    <ul>
+                                                        <li><a class="sub" href="saai-m3-identificadores.html">Identificadores</a></li>
+                                                        <li><a class="sub" href="saai-m3-regulaciones.html">Regulaciones</a></li>
+                                                        <li><a class="sub" href="saai-m3-unidades-medida.html">Unidades de Medida</a></li>
+                                                        <li><a class="sub" href="saai-m3-errores-pedimentos.html">Errores en Pedimentos</a></li>
+                                                        <li><a class="sub" href="saai-m3-errores-cartas-cupo.html">Errores en Cartas de Cupo</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a class="has-arrow">Pago Electrónico </a>
+                                                    <ul>
+                                                        <li><a class="sub" href="pago-electronico-errores.html">Errores</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a class="has-arrow">CAAAREM </a>
+                                                    <ul>
+                                                        <li><a class="sub" href="caaarem-errores-solicitudes-carta-cupo.html">Catálogo de Errores
+                                    de Solicitudes de Cartas de Cupo</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a class="has-arrow">AAGEDE </a>
+                                                    <ul>
+                                                        <li><a class="sub" href="aagede-catalogo-tigie.html">Catálogo TIGIE</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="catalogo-acting.html">Catálogo Absa o Acting</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a class="has-arrow" href="#" aria-expanded="false">Contabilidad</a>
+                                            <ul aria-expanded="false" class="collapse">
+                                                <li><a href="servicios-sac.html">Servicio SAC</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="has-arrow" href="#" aria-expanded="false"><i class="fas fa-flag"></i>
+                                        Reportes</a>
+                                    <ul aria-expanded="false" class="collapse">
+                                        <li>
+                                            <a class="has-arrow" href="#" aria-expanded="false">Rep.Generales</a>
+                                            <ul aria-expanded="false" class="collapse">
+                                                <li><a href="codigo-absa-acting.html">Código Absa o Acting</a></li>
+                                                <li><a href="bodegas.html">Bodegas</a></li>
+                                                <li><a href="control-bodegas-habilitadas.html">Control de Bodegas Habilitadas</a></li>
+                                                <li><a href="grupos.html">Grupos</a></li>
+                                                <li><a href="bitacora-movimientos.html">Bitácora de Movimientos</a></li>
+                                                <li><a href="informacion-recs.html">Información para RECS</a></li>
+                                                <li><a href="bitacora-movimientos-auditoria.html">Bitácora de Movimientos para Auditoría</a></li>
+                                                <li><a href="bitacora-sustitucion-folios-certificados-depositos.html">Bitácora de Sustitución de
+                                                        Folios de Certificados de Depósito</a></li>
+                                                <li><a href="bitacora-movimientos-internet-auditoria.html">Bitácora de Movimientos de Internet para
+                                                        Auditoría</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a class="has-arrow" href="#" aria-expanded="false">Internos</a>
+                                            <ul aria-expanded="false" class="collapse">
+                                                <li><a href="convenios-servicios.html">Convenios de Servicios</a></li>
+                                                <li><a class="has-arrow">Cartas de Cupo</a>
+                                                    <ul>
+                                                        <li><a class="sub" href="reporte-cartas-cupo.html">Reportes de Cartas de Cupo</a></li>
+                                                        <li><a class="has-arrow">Traslados y Traspasos</a>
+                                                            <ul>
+                                                                <li><a class="sub" href="traspasos-entrada.html">Traspasos de Entrada</a></li>
+                                                                <li><a class="sub" href="traspasos-entrada.html">Traspasos de Salida</a></li>
+                                                                <li><a class="sub" href="traslados.html">Traslados</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li><a class="" href="recibo-deposito.html">Recibo de Depósito</a></li>
+                                                        <li><a class="" href="ordenes-salida.html">Órdenes de Salida</a></li>
+                                                        <li><a class="" href="pago-impuestos.html">Pago de Impuestos</a></li>
+                                                        <li><a class="" href="impuestos-pagados.html">Impuestos Pagados</a></li>
+                                                        <li><a class="" href="pedimentos-extraccion-csv.html">Pedimentos de Extracción (CSV)</a></li>
+                                                        <li><a class="" href="declaracion-seguros.html">Declaración de Seguros</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a class="has-arrow" href="#" aria-expanded="false">Inventarios</a>
+                                            <ul aria-expanded="false" class="collapse">
+                                                <li><a href="saldos-mercancia-principal.html">Saldos de Mercancía </a></li>
+                                                <li><a href="saldos-mercancia-fraccion.html">Saldos de Mercancía por Fracción Arancelaria</a></li>
+                                                <li><a href="saldos-recibo-cliente.html">Saldos de Recibos de un Cliente</a></li>
+                                                <li><a class="has-arrow">Saldos de Mercancía</a>
+                                                    <ul>
+                                                        <li><a class="sub" href="ordenes-entrada-salida-inventario.html">Reporte de Órdenes de
+                                                                Entrada/Salida/Inventarios</a></li>
+                                                        <li><a class="has-arrow">Saldos por Bodega</a>
+                                                            <ul>
+                                                                <li><a class="sub" href="saldos-mercancia-bodega.html">Saldos de Mercancía por
+                                                                        Bodega</a></li>
+                                                                <li><a class="sub" href="saldos-inversion-bodega-cliente.html">Saldos de Inv. por
+                                                                        Bodega por Cliente</a></li>
+                                                                <li><a class="sub" href="saldos-inversion-bodega.html">Saldos de Inv. por Bodega</a></li>
+                                                                <li><a class="sub" href="inventario-certificacion-bodega.html">Inventario y
+                                                                        Certificación por Bodega</a></li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="relacion-extracciones-certificado-deposito.html">Saldos de Extracciones por
+                                                        Certificado de Depósito</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a class="has-arrow" href="#" aria-expanded="false">Certificación</a>
+                                            <ul aria-expanded="false" class="collapse">
+                                                <li><a href="resumen-certificación.html">Resumen de Certificación</a></li>
+                                                <li><a href="relacion-cuenta-6S21.html">Relación de la Cuenta 6S21</a></li>
+                                                <li><a href="saldos-promedio-certificacion.html">Saldos Promedio de Certificación</a></li>
+                                                <li><a href="relacion-tenedores-certificado.html">Relación de Tenedores de Certificados</a></li>
+                                                <li><a href="certificacion-cuota-seguro.html">Certificación que considera CUOTA de SEGURO</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="fax-impuestos-clientes.html" style="color:red" aria-expanded="false">Fax de Impuestos para Clientes</a>
+                                        </li>
+                                        <li>
+                                            <a class="has-arrow" href="#" aria-expanded="false">Reportes Varios</a>
+                                            <ul aria-expanded="false" class="collapse">
+                                                <li><a href="cartas-cupo-vencidas.html">Cartas de Cupo Vencidas</a></li>
+                                                <li><a href="complemento-traslado.html">Complemento de Traslado</a></li>
+                                                <li><a href="saldos-mercancia-traslados.html">Saldos de Mercancía con Traslados</a></li>
+                                                <li><a href="reporte-matriz-riesgo.html">Matriz de Riesgo</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a class="has-arrow" href="#" aria-expanded="false">Regulatorios CNBV</a>
+                                            <ul aria-expanded="false" class="collapse">
+                                                <li><a href="r14-b-1421.html">R14 B-1421</a></li>
+                                                <li><a href="deposito-bienes-r23-html.html">Depósito de Bienes R23</a></li>
+                                                <li><a href="r123-b-2321.html">R123 B-2321</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a class="has-arrow" href="#" aria-expanded="false">Regulatorios SE</a>
+                                            <ul aria-expanded="false" class="collapse">
+                                                <li><a href="reporte-rucam-inscricpion.html">RUCAM Inscripción</a></li>
+                                                <li><a href="reporte-rucam-modificacion.html">RUCAM Modificaciones</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#" aria-expanded="false">Reportes AAGEDE</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li id="removable">
+                                    <a class="has-arrow" href="#" aria-expanded="false"><i class="fa fa-chart-bar"></i>
+                                        Administración</a>
+                                    <ul aria-expanded="false" class="collapse">
+                                        <li>
+                                            <a class="has-arrow" href="#" aria-expanded="false">Facturación</a>
+                                            <ul>
+                                                <li><a class="has-arrow">Facturación Automática</a>
+                                                    <ul>
+                                                        <li><a href="generacion-movimientos.html">Generación de Movimientos</a></li>
+                                                        <li><a href="cancelacion-movimientos.html">Cancelación de Movimientos</a></li>
+                                                        <li><a href="reporte-movimientos-facturar.html">Reportes de Movimientos por Facturar</a></li>
+                                                        <li><a href="facturacion-automatica.html">Facturación Automática</a></li>
+                                                        <li><a href="impresion-facturas.html">Impresión de Facturas</a></li>
+                                                        <li><a href="cancelacion-facturas.html">Cancelación de Facturas</a></li>
+                                                        <li><a href="reemplazo-facturas.html">Reemplazo de Facturas</a></li>
+                                                        <li><a href="reporte-facturacion.html">Reporte de Facturación</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a class="has-arrow">Facturación Manual</a>
+                                                    <ul>
+                                                        <li><a href="registro-movimientos-manual.html">Registro de Movimientos</a></li>
+                                                        <li><a href="generacion-movimientos-manual.html">Generación de Movimientos</a></li>
+                                                        <li><a href="generacion-facturas-manual.html">Generación de Facturas</a></li>
+                                                        <li><a href="reemplazo-facturas-manual.html">Reemplazo de Facturas</a></li>
+                                                        <li><a href="consulta-reemplazos-cancelaciones.html">Consultar Reemplazos y Cancelaciones</a></li>
+                                                        <li><a href="consulta-facturacion-manual.html">Consulta de Facturación Manual</a></li>
+                                                        <li><a href="reporte-facturacion-manual.html">Reporte de Facturación</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a class="has-arrow">Facturación Electrónica</a>
+                                                    <ul>
+                                                        <li><a href="generar-archivo.html"> Generar Archivo</a></li>
+                                                        <li><a href="enviar-archivo.html">Enviar Archivos</a></li>
+                                                        <li><a href="consulta-factura-notas-enviadas.html"> Consulta de Facturas / Notas Enviadas</a></li>
+                                                        <li><a href="reportes-facturacion.html"> Reporte de Facturación</a></li>
+                                                        <li><a href="administrador-complementos-principal.html"> Administrador de Complementos</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a class="has-arrow">Notas de Crédito</a>
+                                                    <ul>
+                                                        <li><a href="alta-notas-credito.html">Alta de Notas de Crédito</a></li>
+                                                        <li><a href="listado-notas-credito.html">Listado de Notas de Crédito</a></li>
+                                                        <li><a href="modificar-nota-credito.html">Modificar Nota de Crédito</a></li>
+                                                        <li><a href="reporte-notas-credito.html">Reporte de Notas de Crédito</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="reporte-de-facturacion.html">Reporte de Facturación</a> </li>
+                                                <ul>
+                                                </ul>
+                                                <li><a class="has-arrow">Facturación Almanorte </a>
+                                                    <ul>
+                                                        <li><a href="almanorte-alta-factura.html">Alta de Factura</a></li>
+                                                        <li><a href="almanorte-listado-facturas.html">Listado de Factura</a></li>
+                                                        <li><a href="almanorte-modificar-factura.html">Modificar Factura</a></li>
+                                                        <li><a href="almanorte-reporte-facturas.html">Reporte de Facturas</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a class="has-arrow">Cambio de Estatus de Facturación </a>
+                                                    <ul>
+                                                        <li><a href="cambio-status-certificado.html">Cambio de Estatus a Certificados</a></li>
+                                                        <li><a href="cambio-status-convenio.html">Cambio de Estatus a Convenios</a></li>
+                                                    </ul>
+                                                </li>
+                                        </li>
+                                    </ul>
+                            </ul>
+                            </li>
+                            <li>
+                                <a class="has-arrow" href="#" aria-expanded="false"><i class="fas fa-cogs"></i>
+                                        Operación</a>
+                                <ul aria-expanded="false" class="collapse">
+                                    <li><a href="#">item 2.1</a></li>
+                                    <li><a href="#">item 2.2</a></li>
+                                    <li><a href="#">item 2.3</a></li>
+                                    <li><a href="#">item 2.4</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="has-arrow" href="#" aria-expanded="false"><i class="fas fa-star"></i>
+                                        Especiales</a>
+                                <ul aria-expanded="false" class="collapse">
+                                    <li><a href="#">item 2.1</a></li>
+                                    <li><a href="#">item 2.2</a></li>
+                                    <li><a href="#">item 2.3</a></li>
+                                    <li><a href="#">item 2.4</a></li>
+                                </ul>
+                            </li>
+                            </ul>
+                        </nav>
+                    </aside>
+                </nav>
+            </div>
+			<div class="col-9 pl-0">
+				<!--Breadcrum-->
+				<nav aria-label="breadcrumb">
+					<ol class="breadcrumb pt-0">
+						<li class="breadcrumb-item">Operación Diaria</li>
+						<li class="breadcrumb-item">Convenios de Servicio </li>
+						<li class="breadcrumb-item active" aria-current="page">Bloqueo de Salida de Mercancía</li>
+					</ol>
+				</nav>
+				<!--MainContent-->
+				<div class="card mt-5">
+					<div class="card-header tab-header bg-danger text-white pb-0">
+						<h5 class="title-section">Convenio de Servicios - Bloqueo/ Desbloqueo de Salidas</h5>
+						<p style="margin-bottom:10px"></p>
+					</div>
+					<div class="card-body">
+
+						<div class=" mb-3 d-flex justify-content-end">
+
+							<a class="btn btn-sm btn1 btn-danger mr-2" href="aagede-catalogo-tigie-modificacion.html" role="button"><i
+								 class="fas fa-plus" style="color: white;"></i>
+								Bloquear Todos</a>
+                            <a class="btn btn-sm btn1 btn-dark" href="aagede-catalogo-tigie-modificacion.html" role="button"><i
+                                 class="fas fa-plus" style="color: white;"></i>
+                                Desbloquear Todos</a>
+						</div>
+						<!--table-->
+						<div class="row">
+							<div class="col-sm-12" style="overflow-x:auto">
+								<table id="example" class="table table-sm table-hover nowrap dataTable no-footer dtr-inline collapsed ui-selectable"
+								 style=" text-align: center; " role="grid">
+									<thead>
+										<tr role="row" class="ui-selectee">
+											<th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: 120px; text-align: center;     "
+											 aria-label="Last name: activate to sort column ascending">Acciones
+											</th>
+											<th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: auto; text-align: center;     "
+											 aria-label="Last name: activate to sort column ascending">Convenio
+											</th>
+											<th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: auto; text-align: center;   "
+											 aria-label="Position: activate to sort column ascending">Cliente</th>
+											<th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: auto; text-align: center;    "
+Iniciio											<th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: auto; text-align: center;    "
+											 aria-label="Office: activate to sort column ascending">Inicio</th>
+											<th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: auto; text-align: center;    "
+											 aria-label="Office: activate to sort column ascending">Tipo</th>
+                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: auto; text-align: center;    "
+                                             aria-label="Office: activate to sort column ascending">Estatus Extracción</th>
+                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: auto; text-align: center;    "
+                                             aria-label="Office: activate to sort column ascending">Estatus</th>
+                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: auto; text-align: center;    "
+                                             aria-label="Office: activate to sort column ascending">Estatus Facturación</th>
+										
+										</tr>
+									</thead>
+									<tbody>
+										<tr role="row" class="odd ui-selectee">
+											<td>
+												<button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip" data-placement="top" title="Bloquear"><i
+													 class="fas fa-lock"></i></button>
+                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip" data-placement="top" title="Desbloquear"><i
+                                                     class="fas fa-lock-open"></i></button></td>
+											<td>1500</td>
+											<td>RICARDO MENDEZ MENDEZ</td>
+											<td>06/08/2018</td>
+																					
+											<td>ARRENDAMIENTO</td>
+											<td>PERMITIR SALIDAS</td>
+                                            <td>BAJA</td>
+                                            <td>NO FACTURAR</td>
+
+										</tr>
+										<tr role="row" class="odd ui-selectee">
+											<td>
+                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip" data-placement="top" title="Bloquear"><i
+                                                     class="fas fa-lock"></i></button>
+                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip" data-placement="top" title="Desbloquear"><i
+                                                     class="fas fa-lock-open"></i></button></td>
+                                            <td>1451</td>
+                                            <td>CLIENTE DE PRUEBA STK</td>
+                                            <td>13/07/2018</td>
+                                                                                    
+                                            <td>COMERCIALIZACIÓN DE INVENTARIOS</td>
+                                            <td>PERMITIR SALIDAS</td>
+                                            <td>POR AUTORIZAR</td>
+                                            <td>SOLO FACTURACIÓN AUTOMÁTICA</td>
+										</tr>
+										<tr role="row" class="odd ui-selectee">
+											<td>
+                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip" data-placement="top" title="Bloquear"><i
+                                                     class="fas fa-lock"></i></button>
+                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip" data-placement="top" title="Desbloquear"><i
+                                                     class="fas fa-lock-open"></i></button></td>
+                                            <td>1450</td>
+                                            <td>CLIENTE DE PRUEBA STK</td>
+                                            <td>13/07/2018</td>
+                                                                                    
+                                            <td>ARRENDAMIENTO</td>
+                                            <td>PERMITIR SALIDAS</td>
+                                            <td>POR AUTORIZAR</td>
+                                            <td>SOLO FACTURACIÓN AUTOMÁTICA</td>
+										</tr>
+										<tr role="row" class="odd ui-selectee">
+											<td>
+                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip" data-placement="top" title="Bloquear"><i
+                                                     class="fas fa-lock"></i></button>
+                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip" data-placement="top" title="Desbloquear"><i
+                                                     class="fas fa-lock-open"></i></button></td>
+                                            <td>1449</td>
+                                            <td>CLIENTE DE PRUEBA STK</td>
+                                            <td>06/08/2018</td>
+                                                                                    
+                                            <td>ARRENDAMIENTO</td>
+                                            <td>PERMITIR SALIDAS</td>
+                                            <td>POR AUTORIZAR</td>
+                                            <td>NO FACTURAR</td>
+
+										</tr>
+										<tr role="row" class="odd ui-selectee">
+											<td>
+                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip" data-placement="top" title="Bloquear"><i
+                                                     class="fas fa-lock"></i></button>
+                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip" data-placement="top" title="Desbloquear"><i
+                                                     class="fas fa-lock-open"></i></button></td>
+                                            <td>1448</td>
+                                            <td>CLIENTE DE PRUEBA STK</td>
+                                            <td>06/08/2018</td>
+                                                                                    
+                                            <td>ARRENDAMIENTO</td>
+                                            <td>PERMITIR SALIDAS</td>
+                                            <td>POR AUTORIZAR</td>
+                                            <td>FACTURAR</td>
+										</tr>
+										<tr role="row" class="odd ui-selectee">
+											<td>
+                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip" data-placement="top" title="Bloquear"><i
+                                                     class="fas fa-lock"></i></button>
+                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip" data-placement="top" title="Desbloquear"><i
+                                                     class="fas fa-lock-open"></i></button></td>
+                                            <td>1447</td>
+                                            <td>CLIENTE DE PRUEBA STK</td>
+                                            <td>06/08/2018</td>
+                                                                                    
+                                            <td>ARRENDAMIENTO</td>
+                                            <td>PERMITIR SALIDAS</td>
+                                            <td>POR AUTORIZAR</td>
+                                            <td>FACTURAR</td>
+										</tr>
+										<tr role="row" class="odd ui-selectee">
+											<td>
+                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip" data-placement="top" title="Bloquear"><i
+                                                     class="fas fa-lock"></i></button>
+                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip" data-placement="top" title="Desbloquear"><i
+                                                     class="fas fa-lock-open"></i></button></td>
+                                            <td>1446</td>
+                                            <td>CLIENTE DE PRUEBA STK</td>
+                                            <td>06/08/2018</td>
+                                                                                    
+                                            <td>ARRENDAMIENTO</td>
+                                            <td>PERMITIR SALIDAS</td>
+                                            <td>POR AUTORIZAR</td>
+                                            <td>NO FACTURAR</td>
+										</tr>
+										<tr role="row" class="odd ui-selectee">
+											<td>
+                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip" data-placement="top" title="Bloquear"><i
+                                                     class="fas fa-lock"></i></button>
+                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip" data-placement="top" title="Desbloquear"><i
+                                                     class="fas fa-lock-open"></i></button></td>
+                                            <td>1445</td>
+                                            <td>CLIENTE DE PRUEBA STK</td>
+                                            <td>06/08/2018</td>
+                                                                                    
+                                            <td>ARRENDAMIENTO</td>
+                                            <td>PERMITIR SALIDAS</td>
+                                            <td>POR AUTORIZAR</td>
+                                            <td>NO FACTURAR</td>
+										</tr>
+										<tr role="row" class="odd ui-selectee">
+											<td>
+                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip" data-placement="top" title="Bloquear"><i
+                                                     class="fas fa-lock"></i></button>
+                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip" data-placement="top" title="Desbloquear"><i
+                                                     class="fas fa-lock-open"></i></button></td>
+                                            <td>1444</td>
+                                            <td>CLIENTE DE PRUEBA STK</td>
+                                            <td>06/08/2018</td>
+                                                                                    
+                                            <td>ARRENDAMIENTO</td>
+                                            <td>PERMITIR SALIDAS</td>
+                                            <td>POR AUTORIZAR</td>
+                                            <td>SOLO FACTURAR MANUALMENTE</td>
+										</tr>
+										<tr role="row" class="odd ui-selectee">
+											<td>
+                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip" data-placement="top" title="Bloquear"><i
+                                                     class="fas fa-lock"></i></button>
+                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip" data-placement="top" title="Desbloquear"><i
+                                                     class="fas fa-lock-open"></i></button></td>
+                                            <td>1443</td>
+                                            <td>RICARDO MENDEZ MENDEZ</td>
+                                            <td>06/08/2018</td>
+                                                                                    
+                                            <td>ARRENDAMIENTO</td>
+                                            <td>PERMITIR SALIDAS</td>
+                                            <td>POR AUTORIZAR</td>
+                                            <td>SOLO FACTURAR MANUALMENTE</td>
+										</tr>
+									
+									
+									
+
+								</table>
+							</div>
+						</div>
+						<!--Paginador-->
+						<div class="row ">
+
+							<div class="col-sm-12 col-md-6 mt-3">
+								<div class="pagination-nav-info" id="   ">
+									<ul class="pagination">
+										<li class="paginate_button page-item previous disabled" id="example_previous"><a href="#" aria-controls="example"
+											 data-dt-idx="0" tabindex="0" class="page-link">Anterior</a></li>
+										<li class="paginate_button page-item active"><a href="#" aria-controls="example" data-dt-idx="1" tabindex="0"
+											 class="page-link">1</a></li>
+										<li class="paginate_button page-item "><a href="#" aria-controls="example" data-dt-idx="2" tabindex="0" class="page-link">2</a></li>
+										<li class="paginate_button page-item "><a href="#" aria-controls="example" data-dt-idx="3" tabindex="0" class="page-link">3</a></li>
+										<li class="paginate_button page-item "><a href="#" aria-controls="example" data-dt-idx="4" tabindex="0" class="page-link">4</a></li>
+										<li class="paginate_button page-item "><a href="#" aria-controls="example" data-dt-idx="5" tabindex="0" class="page-link">5</a></li>
+										<li class="paginate_button page-item "><a href="#" aria-controls="example" data-dt-idx="6" tabindex="0" class="page-link">6</a></li>
+										<li class="paginate_button page-item next" id="example_next"><a href="#" aria-controls="example" data-dt-idx="7"
+											 tabindex="0" class="page-link">Siguiente</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>

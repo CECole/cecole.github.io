@@ -280,6 +280,10 @@ table th, .table td {
     vertical-align: text-bottom;
 }
 
+table th, .table td {
+    white-space: nowrap;
+}
+
 .title-section {
     text-transform: uppercase;
     font-size: .9rem;
@@ -450,4 +454,9 @@ li a {
 
 .fa-plus, .fa-times, .fa-save, .fa-search, .fa-cog, .fa-key {
     color: #ffffff;
+}
+
+textarea {
+    border: 1px solid #ced4da;
+    width: 100%;
 }
