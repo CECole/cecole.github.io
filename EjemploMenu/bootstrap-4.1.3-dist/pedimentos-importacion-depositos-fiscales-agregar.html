@@ -410,77 +410,469 @@
                         <li class="breadcrumb-item">Operción Diaria </li>
                         <li class="breadcrumb-item"">Pedimentos de Origen</li>
 
-                        <li class=" breadcrumb-item active" aria-current="page">Pedimentos A3 Fracciones</li>
+                        <li class=" breadcrumb-item active" aria-current="page">Pedimentos de Importación a Depósitos Fiscales Agregar</li>
                     </ol>
                 </nav>
                 <!--MainContent-->
                 <div class="card mt-5">
                     <div class="card-header tab-header bg-danger text-white pb-0">
-                        <h5 class="title-section">Pedimentos A3 Fracciones</h5>
+                        <h5 class="title-section">Pedimentos de Importación a Depósitos Fiscales Agregar</h5>
                         <p style="margin-bottom:10px"></p>
                     </div>
                     <div class="card-body">
                         <div class="row">
-                            <div class="col-12 col-md-12">
+                            <div class="col-12 col-md-4">
                                 <div class="form-group">
-                                    <label for="exampleFormControlInput1">FRACCIONES DEL PEDIMENTO A3</label>
-                                    <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="PEDIMENTO A3:15-24-307">
+                                    <label for="exampleFormControlInput1">Número de Pedimento</label>
+                                    <input type="text" class="form-control form-control-sm">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Tipo de Operación</label>
+                                    <select name="" id="" class="form-control form-control-sm">
+                                        <option value="">IMPORTACIÓN </option>
+                                        <option value="">Option 1</option>
+                                        <option value="">Option 1</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Tipo SAAI</label>
+                                    <select name="" id="" class="form-control form-control-sm">
+                                        <option value="">SAAI M3</option>
+                                        <option value="">Option 1</option>
+                                        <option value="">Option 1</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Fecha de Entrada</label>
+                                    <div class="input-group input-group-sm mb-3">
+                                        <input type="text" class="form-control" aria-label="DD/MM/AAAA" aria-describedby="basic-addon2">
+                                        <div class="input-group-append">
+                                            <span class="input-group-text" id="basic-addon2"><i class="fas fa-calendar-alt"></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Fecha de Pago</label>
+                                    <div class="input-group input-group-sm mb-3">
+                                        <input type="text" class="form-control" aria-label="DD/MM/AAAA" aria-describedby="basic-addon2">
+                                        <div class="input-group-append">
+                                            <span class="input-group-text" id="basic-addon2"><i class="fas fa-calendar-alt"></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Régimen</label>
+                                    <select name="" id="" class="form-control form-control-sm">
+                                        <option value="">DFI DEPOSITO FISCAL</option>
+                                        <option value="">Option 1</option>
+                                        <option value="">Option 1</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Referencia</label>
+                                    <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="">
                                 </div>
                             </div>
                         </div>
-                        <!--table-->
                         <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">ID Fiscal</label>
+                                    <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Documento</label>
+                                    <select name="" id="" class="form-control form-control-sm">
+                                        <option value="">Seleccione una opción</option>
+                                        <option value="">Option 1</option>
+                                        <option value="">Option 1</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Tipo de Cambio</label>
+                                    <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Número de Traspaso</label>
+                                    <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Cliente</label>
+                                    <input type="text" class="form-control form-control-sm">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Carta Cupo</label>
+                                    <input type="text" class="form-control form-control-sm">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <span class="mini-title">Aduana Sección</span>
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Transporte de Entrada</label>
+                                    <select name="" id="" class="form-control form-control-sm">
+                                        <option value="">-- Seleccione la Unidad de Medida --</option>
+                                        <option value="">Option 1</option>
+                                        <option value="">Option 1</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 mt-4">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Transporte de Arribo</label>
+                                    <select name="" id="" class="form-control form-control-sm">
+                                        <option value="">-- Seleccione la Unidad de Medida --</option>
+                                        <option value="">Option 1</option>
+                                        <option value="">Option 1</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Transporte de Salida</label>
+                                    <select name="" id="" class="form-control form-control-sm">
+                                        <option value="">-- Seleccione la Unidad de Medida --</option>
+                                        <option value="">Option 1</option>
+                                        <option value="">Option 1</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Destino</label>
+                                    <select name="" id="" class="form-control form-control-sm">
+                                        <option value="">Interior del País</option>
+                                        <option value="">Option 1</option>
+                                        <option value="">Option 1</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Observaciones </label>
+                                    <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Datos Generales</label>
+                                    <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Peso Brutos</label>
+                                    <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Total Bultos</label>
+                                    <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Valor M.E.</label>
+                                    <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Valor Dis</label>
+                                    <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Factura M.E.</label>
+                                    <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Factura DTA</label>
+                                    <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Valor Seguros</label>
+                                    <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Seguros</label>
+                                    <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Fletes</label>
+                                    <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Embalajes</label>
+                                    <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Factor Ajuste</label>
+                                    <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Deducibles</label>
+                                    <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Otros Incrementables</label>
+                                    <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Factor de Actualización</label>
+                                    <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Valor Aduana</label>
+                                    <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Valor Comercial</label>
+                                    <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Total Dólares Fracción</label>
+                                    <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Efectivo</label>
+                                    <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Pendientes</label>
+                                    <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Otros</label>
+                                    <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Incrementables</label>
+                                    <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Valor Factura Incluye</label>
+                                    <select name="" id="" class="form-control form-control-sm">
+                                        <option value="">ES LIBRE</option>
+                                        <option value="">Option 1</option>
+                                        <option value="">Option 1</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-12">
+                                <div class="row col-12 justify-content-around align-items-end">
+                                    <div class="col-12 col-md-4">
+                                        <div class="form-check">
+                                            <label class="check-label">
+                                                <input type="checkbox" name="check"> <span class="label-text">Actualizar DTA con F.A.</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <div class="form-check">
+                                            <label class="check-label">
+                                                <input type="checkbox" name="check"> <span class="label-text">Incluir Adv8 para Certificado</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <div class="form-check">
+                                            <label class="check-label">
+                                                <input type="checkbox" name="check"> <span class="label-text">Considerar DTA para IVA
+                                            </span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-12 mb-3">
+                                <div class="row col-12 justify-content-around align-items-end">
+                                    <div class="col-12 col-md-6">
+                                        <div class="form-check">
+                                            <label class="check-label">
+                                                <input type="checkbox" name="check"> <span class="label-text">Considerar DTA para IEPS</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="form-check">
+                                            <label class="check-label">
+                                                <input type="checkbox" name="check"> <span class="label-text">Considerar IGI General para IEPS</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Estatus SIDEFI</label>
+                                    <select name="" id="" class="form-control form-control-sm">
+                                        <option value="">POR TRANSMITIR</option>
+                                        <option value="">Option 1</option>
+                                        <option value="">Option 1</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Estatus</label>
+                                    <select name="" id="" class="form-control form-control-sm">
+                                        <option value="">POR VALIDAR</option>
+                                        <option value="">Option 1</option>
+                                        <option value="">Option 1</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Tipo de Traspaso</label>
+                                    <select name="" id="" class="form-control form-control-sm">
+                                        <option value="">NO ES UN TRASPASO</option>
+                                        <option value="">Option 1</option>
+                                        <option value="">Option 1</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-12 mb-3">
+                                <div class="row col-12 justify-content-around align-items-end">
+                                    <div class="col-12 col-md-6">
+                                        <div class="form-check">
+                                            <label class="check-label">
+                                                <input type="checkbox" name="check"> <span class="label-text">Actualizar Tabla después de cada Alta</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" mb-3 d-flex justify-content-end">
+                            <a class="btn btn-sm btn1 btn-danger mr-2" href="clientes-modificacion.html" role="button"><i
+                                    class="fas fa-save"></i>
+                                Guardar</a>
+                        </div>
+                         <!--table-->
+                        <div class="row mt-3">
                             <div class="col-sm-12" style="overflow-x:auto">
                                 <table id="example" class="table table-sm table-hover nowrap dataTable no-footer dtr-inline collapsed ui-selectable" style=" text-align: center; " role="grid">
                                     <thead>
-                                        <tr role="row" class="ui-selectee">
-                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: 120px; text-align: center;     " aria-label="Last name: activate to sort column ascending">Número
+                                        <tr role="row" class="ui-selectee d-none">
+                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: 120px; text-align: center;     " aria-label="Last name: activate to sort column ascending">Acciones
                                             </th>
-                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: auto; text-align: center;     " aria-label="Last name: activate to sort column ascending">Fracción
+                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: auto; text-align: center;     " aria-label="Last name: activate to sort column ascending">Número
                                             </th>
-                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: auto; text-align: center;   " aria-label="Position: activate to sort column ascending">Descripción</th>
-                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: auto; text-align: center;    " Iniciio <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: auto; text-align: center;    " aria-label="Office: activate to sort column ascending">UMT</th>
-                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: auto; text-align: center;    " aria-label="Office: activate to sort column ascending">Cantidad UMT</th>
-                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: auto; text-align: center;    " aria-label="Office: activate to sort column ascending">Valor DLS</th>
+                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: auto; text-align: center;   " aria-label="Position: activate to sort column ascending">Cliente</th>
+                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: auto; text-align: center;    " Iniciio <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: auto; text-align: center;    " aria-label="Office: activate to sort column ascending">Inicio de Servicios</th>
+                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: auto; text-align: center;    " aria-label="Office: activate to sort column ascending">Tipo de Bodega</th>
+                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: auto; text-align: center;    " aria-label="Office: activate to sort column ascending">Descripción de la Mercancía</th>
+                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: auto; text-align: center;    " aria-label="Office: activate to sort column ascending">Estatus</th>
+                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: auto; text-align: center;    " aria-label="Office: activate to sort column ascending">Estatus Facturación</th>
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <tr role="row" class="odd ui-selectee">
-                                            <td>1</td>
-                                            <td>480100001</td>
-                                            <td>PAPEL PRENSA EN ROLLO BLANCO CON PESO MAYOR DE 45 GRS POR M2 Y MENOS A 65 GRS POR M2 CONTENIDO EN PASTA MECÁNICA</td>
-                                            <td>1</td>
-                                            <td>1</td>
-                                            <td>3</td>
-                                        </tr>
+                                        <tr class="no-records-found"><td colspan="7">No Exísten Pedimentos de Origen a mostrar que cumplan con los criterios seleccionados</td></tr>
                                 </table>
                             </div>
-                        </div>
-                        <!--Paginador-->
-                        <div class="row ">
-                            <div class="col-sm-12 col-md-6 mt-3">
-                                <div class="pagination-nav-info" id="   ">
-                                    <ul class="pagination">
-                                        <li class="paginate_button page-item previous disabled" id="example_previous"><a href="#" aria-controls="example"
-                                             data-dt-idx="0" tabindex="0" class="page-link">Anterior</a></li>
-                                        <li class="paginate_button page-item active"><a href="#" aria-controls="example" data-dt-idx="1" tabindex="0"
-                                             class="page-link">1</a></li>
-                                        <li class="paginate_button page-item "><a href="#" aria-controls="example" data-dt-idx="2" tabindex="0" class="page-link">2</a></li>
-                                        <li class="paginate_button page-item "><a href="#" aria-controls="example" data-dt-idx="3" tabindex="0" class="page-link">3</a></li>
-                                        <li class="paginate_button page-item "><a href="#" aria-controls="example" data-dt-idx="4" tabindex="0" class="page-link">4</a></li>
-                                        <li class="paginate_button page-item "><a href="#" aria-controls="example" data-dt-idx="5" tabindex="0" class="page-link">5</a></li>
-                                        <li class="paginate_button page-item "><a href="#" aria-controls="example" data-dt-idx="6" tabindex="0" class="page-link">6</a></li>
-                                        <li class="paginate_button page-item next" id="example_next"><a href="#" aria-controls="example" data-dt-idx="7"
-                                             tabindex="0" class="page-link">Siguiente</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     </div>
 </body>
 
