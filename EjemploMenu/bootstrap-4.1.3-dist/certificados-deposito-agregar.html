@@ -16,7 +16,6 @@
     <link rel="stylesheet" href="css/checkbox.css">
     <link rel="stylesheet" href="css/mm-vertical.css">
     <link rel="icon" type="image/png" href="img/favicon.png" />
-
 </head>
 
 <body>
@@ -51,9 +50,9 @@
                         <a href=""><i class="far fa-bell fa-2x"><span class="badge  badge-danger">88</span></i></a>
                     </div>
                 </div>
-            </div>    </nav>
-        </div>
-
+            </div>
+    </nav>
+    </div>
     <!--Background-->
     <div id="background"></div>
     <!--Contenedor-->
@@ -409,82 +408,516 @@
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb pt-0">
                         <li class="breadcrumb-item">Operción Diaria </li>
-                        <li class="breadcrumb-item">Certificados de Depósito</li>
+                        <li class="breadcrumb-item"">Cartas de Cupo</li>
 
-                        <li class="breadcrumb-item active" aria-current="page">Certificados de Depósito</li>
+                        <li class=" breadcrumb-item active" aria-current="page">Certificación de Deposito Agregar</li>
                     </ol>
                 </nav>
                 <!--MainContent-->
                 <div class="card mt-5">
                     <div class="card-header tab-header bg-danger text-white pb-0">
-                        <h5 class="title-section">Certificados de Depósito</h5>
+                        <h5 class="title-section">Certificación de Deposito Agregar</h5>
                         <p style="margin-bottom:10px"></p>
                     </div>
                     <div class="card-body">
-
-                     
-
                         <div class="row">
-                          
-                            <div class="col-12 col-md-12">
+                            <div class="col-12 col-md-6">
                                 <div class="form-group">
+                                    <label for="exampleFormControlInput1">Número</label>
+                                    <input type="text" class="form-control form-control-sm">
                                 </div>
                             </div>
-                          
-                            
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Serie</label>
+                                    <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Bono de Prenda</label>
+                                    <input type="text" class="form-control form-control-sm">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Recibo</label>
+                                    <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Cliente</label>
+                                    <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Expedición</label>
+                                    <div class="input-group input-group-sm mb-3">
+                                        <input type="text" class="form-control" aria-label="DD/MM/AAAA" aria-describedby="basic-addon2">
+                                        <div class="input-group-append">
+                                            <span class="input-group-text" id="basic-addon2"><i class="fas fa-calendar-alt"></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-
-
-                   
-                      
-                        <div class="  d-flex justify-content-end">
-                            <a class="btn btn-sm btn1 btn-danger" href="#.html" role="button"><i
-                                 class="fas fa-plus" style="color: white;"></i>
-                                Agregar</a>
-
+                        <div class="row">
+                            <div class="col-12 col-md-12">
+                                <div class="form-group ">
+                                    <label for="exampleFormControlInput1">Descripción de la Mercancía</label>
+                                    <textarea class="form-control form-control-sm" id="exampleFormControlTextarea1" rows="2" style="min-height: 50px; max-height: 50px"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Fecha de Inicio</label>
+                                    <div class="input-group input-group-sm mb-3">
+                                        <input type="text" class="form-control" aria-label="DD/MM/AAAA" aria-describedby="basic-addon2">
+                                        <div class="input-group-append">
+                                            <span class="input-group-text" id="basic-addon2"><i class="fas fa-calendar-alt"></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Fecha de Vencimiento</label>
+                                    <div class="input-group input-group-sm mb-3">
+                                        <input type="text" class="form-control" aria-label="DD/MM/AAAA" aria-describedby="basic-addon2">
+                                        <div class="input-group-append">
+                                            <span class="input-group-text" id="basic-addon2"><i class="fas fa-calendar-alt"></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-
-                         <!--table-->
-                        <div class="row mt-3">
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Moneda</label>
+                                    <select name="" id="" class="form-control form-control-sm">
+                                        <option value="">-- Seleccione una Moneda --</option>
+                                        <option value="">Option 1</option>
+                                        <option value="">Option 1</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Designación de la Mercancía</label>
+                                    <select name="" id="" class="form-control form-control-sm">
+                                        <option value="">-- Seleccione la Designación --</option>
+                                        <option value="">Option 1</option>
+                                        <option value="">Option 1</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Negociable</label>
+                                    <select name="" id="" class="form-control form-control-sm">
+                                        <option value="">NO NEGOCIABLE</option>
+                                        <option value="">Option 1</option>
+                                        <option value="">Option 1</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <label for=""></label><br>
+                                <div class="form-check">
+                                    <label class="check-label">
+                                        <input type="checkbox" name="check"> <span class="label-text">Bono de Prenda en Circulación</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Fecha de Vencimiento del Bono</label>
+                                    <div class="input-group input-group-sm mb-3">
+                                        <input type="text" class="form-control" aria-label="DD/MM/AAAA" aria-describedby="basic-addon2">
+                                        <div class="input-group-append">
+                                            <span class="input-group-text" id="basic-addon2"><i class="fas fa-calendar-alt"></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Tasa de Referencia</label>
+                                    <select name="" id="" class="form-control form-control-sm">
+                                        <option value="">Seleccione la Tasa</option>
+                                        <option value="">Option 1</option>
+                                        <option value="">Option 1</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-12">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Importe del Banco</label>
+                                    <input type="text" class="form-control form-control-sm">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Tenedores</label>
+                                    <select name="" id="" class="form-control form-control-sm">
+                                        <option value="">Seleccione un Banco</option>
+                                        <option value="">Option 1</option>
+                                        <option value="">Option 1</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Fecha de Notificación</label>
+                                    <div class="input-group input-group-sm mb-3">
+                                        <input type="text" class="form-control" aria-label="DD/MM/AAAA" aria-describedby="basic-addon2">
+                                        <div class="input-group-append">
+                                            <span class="input-group-text" id="basic-addon2"><i class="fas fa-calendar-alt"></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Certificar a Favor de</label>
+                                    <select name="" id="" class="form-control form-control-sm">
+                                        <option value="">Seleccione Tercero</option>
+                                        <option value="">Option 1</option>
+                                        <option value="">Option 1</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Leyenda del Valor Declarado</label>
+                                    <select name="" id="" class="form-control form-control-sm">
+                                        <option value="">Seleccione un idioma</option>
+                                        <option value="">Option 1</option>
+                                        <option value="">Option 1</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Total M2</label>
+                                    <input type="text" class="form-control form-control-sm">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Estatus para Extracciones</label>
+                                    <select name="" id="" class="form-control form-control-sm">
+                                        <option value="">Permitir Salidas</option>
+                                        <option value="">Option 1</option>
+                                        <option value="">Option 1</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Estatus de Facturación</label>
+                                    <select name="" id="" class="form-control form-control-sm">
+                                        <option value="">Facturar</option>
+                                        <option value="">Option 1</option>
+                                        <option value="">Option 1</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Se Factura a un Tercero</label>
+                                    <select name="" id="" class="form-control form-control-sm">
+                                        <option value="">(Si/No)</option>
+                                        <option value="">Option 1</option>
+                                        <option value="">Option 1</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Tercero a facturar</label>
+                                    <select name="" id="" class="form-control form-control-sm">
+                                        <option value="">Seleccione un Tercero</option>
+                                        <option value="">Option 1</option>
+                                        <option value="">Option 1</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group ">
+                                    <label for="exampleFormControlInput1">Observaciones de Facturación</label>
+                                    <textarea class="form-control form-control-sm" id="exampleFormControlTextarea1" rows="2" style="min-height: 50px; max-height: 50px"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Asegurado contra Incendio y/o Rayos</label>
+                                    <select name="" id="" class="form-control form-control-sm">
+                                        <option value="">(Si/No)</option>
+                                        <option value="">Option 1</option>
+                                        <option value="">Option 1</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group ">
+                                    <label for="exampleFormControlInput1">Observaciones generales</label>
+                                    <textarea class="form-control form-control-sm" id="exampleFormControlTextarea1" rows="2" style="min-height: 50px; max-height: 50px"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Temperatura Recepción</label>
+                                    <input type="text" class="form-control form-control-sm">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Temperatura Conservación</label>
+                                    <input type="text" class="form-control form-control-sm">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <label for=""></label><br>
+                                <div class="form-check">
+                                    <label class="check-label">
+                                        <input type="checkbox" name="check"> <span class="label-text">Incluir Leyenda Recibí Original</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Incluir Leyenda Bono</label>
+                                    <select name="" id="" class="form-control form-control-sm">
+                                        <option value="">-- NO --</option>
+                                        <option value="">Option 1</option>
+                                        <option value="">Option 1</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Leyenda Bono</label>
+                                    <select name="" id="" class="form-control form-control-sm">
+                                        <option value="">Expedido sin Bono de Prenda</option>
+                                        <option value="">Option 1</option>
+                                        <option value="">Option 1</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <label for=""></label><br>
+                                <div class="form-check">
+                                    <label class="check-label">
+                                        <input type="checkbox" name="check"> <span class="label-text">Producto Agropecuario o Pesquero</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <label for=""></label><br>
+                                <div class="form-check">
+                                    <label class="check-label">
+                                        <input type="checkbox" name="check"> <span class="label-text">Producto Básico y Estratégico</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Entidad</label>
+                                    <select name="" id="" class="form-control form-control-sm">
+                                        <option value="">Seleccione Entidad</option>
+                                        <option value="">Option 1</option>
+                                        <option value="">Option 1</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Municipio</label>
+                                    <select name="" id="" class="form-control form-control-sm">
+                                        <option value="">Seleccionar</option>
+                                        <option value="">Option 1</option>
+                                        <option value="">Option 1</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Localidad</label>
+                                    <select name="" id="" class="form-control form-control-sm">
+                                        <option value="">Seleccionar</option>
+                                        <option value="">Option 1</option>
+                                        <option value="">Option 1</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Año de Producción</label>
+                                    <select name="" id="" class="form-control form-control-sm">
+                                        <option value="">Seleccione el Año</option>
+                                        <option value="">Option 1</option>
+                                        <option value="">Option 1</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Ciclo Agrícola</label>
+                                    <select name="" id="" class="form-control form-control-sm">
+                                        <option value="">Seleccione el Ciclo</option>
+                                        <option value="">Option 1</option>
+                                        <option value="">Option 1</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Grado de Calidad</label>
+                                    <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Norma de Calidad</label>
+                                    <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <label for=""></label><br>
+                                <div class="form-check">
+                                    <label class="check-label">
+                                        <input type="checkbox" name="check"> <span class="label-text">Cuenta con Cobertura de Precios</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Categoría</label>
+                                    <select name="" id="" class="form-control form-control-sm">
+                                        <option value="">Seleccione la Categoría</option>
+                                        <option value="">Option 1</option>
+                                        <option value="">Option 1</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <label for=""></label><br>
+                                <div class="form-check">
+                                    <label class="check-label">
+                                        <input type="checkbox" name="check"> <span class="label-text">Mercancía Asegurada</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <label for=""></label><br>
+                                <div class="form-check">
+                                    <label class="check-label">
+                                        <input type="checkbox" name="check"> <span class="label-text">Considerar Cuota de Seguro Almacenadora</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Póliza</label>
+                                    <select name="" id="" class="form-control form-control-sm">
+                                        <option value="">Seleccione la Categoría</option>
+                                        <option value="">Option 1</option>
+                                        <option value="">Option 1</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Inciso</label>
+                                    <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Endoso</label>
+                                    <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <label for=""></label><br>
+                                <div class="form-check">
+                                    <label class="check-label">
+                                        <input type="checkbox" name="check"> <span class="label-text">Actualizar Tabla Después de cada Alta</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" mb-3 d-flex justify-content-end">
+                            <a class="btn btn-sm btn1 btn-danger mr-2" href="#" role="button"><i
+                                    class="fas fa-save"></i>
+                                Guardar</a>
+                            <a class="btn btn-sm btn1 btn-dark mr-2" href="#" role="button"><i
+                                    class="fas fa-sync-alt" style="color: #fff;"></i>
+                                Actualizar Tabla</a>
+                        </div>
+                        <!--table-->
+                        <div class="row">
                             <div class="col-sm-12" style="overflow-x:auto">
                                 <table id="example" class="table table-sm table-hover nowrap dataTable no-footer dtr-inline collapsed ui-selectable" style=" text-align: center; " role="grid">
                                     <thead>
                                         <tr role="row" class="ui-selectee d-none">
                                             <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: 120px; text-align: center;     " aria-label="Last name: activate to sort column ascending">Acciones
                                             </th>
-                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: auto; text-align: center;     " aria-label="Last name: activate to sort column ascending">Número
+                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: auto; text-align: center;     " aria-label="Last name: activate to sort column ascending">Certificado
                                             </th>
                                             <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: auto; text-align: center;   " aria-label="Position: activate to sort column ascending">Cliente</th>
-                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: auto; text-align: center;    " Iniciio <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: auto; text-align: center;    " aria-label="Office: activate to sort column ascending">Inicio de Servicios</th>
-                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: auto; text-align: center;    " aria-label="Office: activate to sort column ascending">Tipo de Bodega</th>
-                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: auto; text-align: center;    " aria-label="Office: activate to sort column ascending">Descripción de la Mercancía</th>
+                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: auto; text-align: center;    " Iniciio <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: auto; text-align: center;    " aria-label="Office: activate to sort column ascending">Tercero a Facturar</th>
+                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: auto; text-align: center;    " aria-label="Office: activate to sort column ascending">Recibo</th>
+                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: auto; text-align: center;    " aria-label="Office: activate to sort column ascending">Expedición</th>
+                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: auto; text-align: center;    " aria-label="Office: activate to sort column ascending">Inicio - Vencimiento</th>
+                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: auto; text-align: center;    " aria-label="Office: activate to sort column ascending">Negociable</th>
                                             <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: auto; text-align: center;    " aria-label="Office: activate to sort column ascending">Estatus</th>
-                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: auto; text-align: center;    " aria-label="Office: activate to sort column ascending">Estatus Facturación</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr role="row" class="odd ui-selectee">
                                             <td>
-                                                <a href="" class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
-                                                    data-placement="top" title="Validar" style="color:#000"><i class="fas fa-check-double"></i></a>
-                                                <button class="btn btn-action btn-alta btn-sm" data-toggle="tooltip" data-placement="top" title="Modo Extemporánea"><i class="fas fa-user-secret"></i></button>
-                                                <a href="#" class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
-                                                    data-placement="top" title="Imprimir" style="color:#000"><i class="fas fa-print"></i></a>
-                                                <button class="btn btn-action btn-alta btn-sm" data-toggle="tooltip" data-placement="top" title="Sustituir"><i class="fas fa-level-down-alt"></i></button>
-                                                <button class="btn btn-action btn-alta btn-sm" data-toggle="tooltip" data-placement="top" title="Imprimir Bono"><i class="fas fa-times-circle"></i></button>
-                                                <a href="#" class="btn btn-action btn-alta btn-sm" data-toggle="tooltip" data-placement="top" title="Sustituir Bono"><i class="fas fa-ban"  style="color:#eb0029"></i></a>
-                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip" data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
-                                            
+                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip" data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button>
+                                            </td>
+                                            <td>35857</td>
+                                            <td>ACERO</td>
+                                            <td></td>
+                                            <td>73352</td>
+                                            <td>07/09/2018</td>
+                                            <td>07/09/2018 - 06/03/2019</td>
+                                            <td>SI</td>
+                                            <td>VIGENTE</td>
                                         </tr>
-                                        <tr class="no-records-found"><td colspan="7">No Exísten Certificados de Depósito a Mostrar que Cumplan con los Criterios Indicados</td></tr>
                                 </table>
                             </div>
-                            <div class="col-12 col-md-6">
-                                <label for=""></label><br>
-                                <div class="form-check">
-                                    <label class="check-label">
-                                        <input type="checkbox" name="check"> <span class="label-text">Impresión Duplex</span>
-                                    </label>
+                        </div>
+                        <!--Paginador-->
+                        <div class="row ">
+                            <div class="col-sm-12 col-md-6 mt-3">
+                                <div class="pagination-nav-info" id="   ">
+                                    <ul class="pagination">
+                                        <li class="paginate_button page-item previous disabled" id="example_previous"><a href="#" aria-controls="example"
+                                             data-dt-idx="0" tabindex="0" class="page-link">Anterior</a></li>
+                                        <li class="paginate_button page-item active"><a href="#" aria-controls="example" data-dt-idx="1" tabindex="0"
+                                             class="page-link">1</a></li>
+                                        <li class="paginate_button page-item "><a href="#" aria-controls="example" data-dt-idx="2" tabindex="0" class="page-link">2</a></li>
+                                        <li class="paginate_button page-item "><a href="#" aria-controls="example" data-dt-idx="3" tabindex="0" class="page-link">3</a></li>
+                                        <li class="paginate_button page-item "><a href="#" aria-controls="example" data-dt-idx="4" tabindex="0" class="page-link">4</a></li>
+                                        <li class="paginate_button page-item "><a href="#" aria-controls="example" data-dt-idx="5" tabindex="0" class="page-link">5</a></li>
+                                        <li class="paginate_button page-item "><a href="#" aria-controls="example" data-dt-idx="6" tabindex="0" class="page-link">6</a></li>
+                                        <li class="paginate_button page-item next" id="example_next"><a href="#" aria-controls="example" data-dt-idx="7"
+                                             tabindex="0" class="page-link">Siguiente</a></li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -493,7 +926,7 @@
             </div>
         </div>
     </div>
-
+    </div>
 </body>
 
 </html>
