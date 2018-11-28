@@ -16,7 +16,6 @@
     <link rel="stylesheet" href="css/checkbox.css">
     <link rel="stylesheet" href="css/mm-vertical.css">
     <link rel="icon" type="image/png" href="img/favicon.png" />
-
 </head>
 
 <body>
@@ -51,9 +50,9 @@
                         <a href=""><i class="far fa-bell fa-2x"><span class="badge  badge-danger">88</span></i></a>
                     </div>
                 </div>
-            </div>    </nav>
-        </div>
-
+            </div>
+    </nav>
+    </div>
     <!--Background-->
     <div id="background"></div>
     <!--Contenedor-->
@@ -409,81 +408,350 @@
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb pt-0">
                         <li class="breadcrumb-item">Operción Diaria </li>
-                        <li class="breadcrumb-item">Recibos de Depósito</li>
+                        <li class="breadcrumb-item">Recibos de Depositos</li>
 
-                        <li class="breadcrumb-item active" aria-current="page">Recibos de Depósito</li>
+                        <li class=" breadcrumb-item active" aria-current="page">Recibos de Depositos Agregar</li>
                     </ol>
                 </nav>
                 <!--MainContent-->
                 <div class="card mt-5">
                     <div class="card-header tab-header bg-danger text-white pb-0">
-                        <h5 class="title-section">Recibos de Depósito</h5>
+                        <h5 class="title-section">Recibos de Depositos Agregar</h5>
                         <p style="margin-bottom:10px"></p>
                     </div>
                     <div class="card-body">
-
-                     
-
                         <div class="row">
-                          
-                            <div class="col-12 col-md-12">
+                            <div class="col-12 col-md-6">
                                 <div class="form-group">
+                                    <label for="exampleFormControlInput1">Recibo</label>
+                                    <input type="text" class="form-control form-control-sm">
                                 </div>
                             </div>
-                          
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Convenio</label>
+                                    <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1" class="mt-4">Expedición</label>
+                                    <div class="input-group input-group-sm mb-3">
+                                        <input type="text" class="form-control" aria-label="DD/MM/AAAA" aria-describedby="basic-addon2">
+                                        <div class="input-group-append">
+                                            <span class="input-group-text" id="basic-addon2"><i class="fas fa-calendar-alt"></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <span class="mini-title">Instrucciones de Manejo</span>
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Cliente</label>
+                                    <select name="" id="" class="form-control form-control-sm">
+                                        <option value="">-- Ingrese el Convenio -- </option>
+                                        <option value="">Option 1</option>
+                                        <option value="">Option 1</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 mt-4">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Bodega</label>
+                                    <input type="text" class="form-control form-control-sm">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1" class="mt-4">Inicio de Servicios</label>
+                                    <div class="input-group input-group-sm mb-3">
+                                        <input type="text" class="form-control" aria-label="DD/MM/AAAA" aria-describedby="basic-addon2">
+                                        <div class="input-group-append">
+                                            <span class="input-group-text" id="basic-addon2"><i class="fas fa-calendar-alt"></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 mt-4">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Pedimento</label>
+                                    <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Peso Bruto</label>
+                                    <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Tipo de Empaque</label>
+                                    <select name="" id="" class="form-control form-control-sm">
+                                        <option value="">Seleccione el tipo de Empaque</option>
+                                        <option value="">Option 1</option>
+                                        <option value="">Option 1</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Valor del Inventario</label>
+                                    <input type="text" class="form-control form-control-sm">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Valor del Certificado</label>
+                                    <input type="text" class="form-control form-control-sm">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Total Unidades</label>
+                                    <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Altura</label>
+                                    <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Transportista</label>
+                                    <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Jefe de Almacen o Bodeguero Habilitado</label>
+                                    <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Descripción</label>
+                                    <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Observaciones</label>
+                                    <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Comentarios</label>
+                                    <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-6"><span class="mini-title">Instrucciones de Estiba</span>
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Referencia para el Cliente (FURGON)</label>
+                                    <input type="text" class="form-control form-control-sm">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 mt-5">
+                                <div class="row justify-content-around align-items-end">
+                                    <div class="col-12 col-md-6">
+                                        <div class="form-check">
+                                            <label class="check-label">
+                                                <input type="checkbox" name="check"> <span class="label-text">Renta de Espuela</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1" class="mt-4">Vencimiento</label>
+                                    <div class="input-group input-group-sm mb-3">
+                                        <input type="text" class="form-control" aria-label="DD/MM/AAAA" aria-describedby="basic-addon2">
+                                        <div class="input-group-append">
+                                            <span class="input-group-text" id="basic-addon2"><i class="fas fa-calendar-alt"></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 mt-4">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">ID Fiscal</label>
+                                    <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Peso Neto</label>
+                                    <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="">
+                                </div>
+                            </div><div class="col-12 col-md-6 mt-4">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Número de Talón/Embarque</label>
+                                    <input type="email" class="form-control form-control-sm" id="exampleFormControlInput1" placeholder="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Moneda de Inventario</label>
+                                    <select name="" id="" class="form-control form-control-sm">
+                                        <option value="">Seleccione una Moneda</option>
+                                        <option value="">Option 1</option>
+                                        <option value="">Option 1</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Moneda de Certificación</label>
+                                    <select name="" id="" class="form-control form-control-sm">
+                                        <option value="">Seleccione una Moneda</option>
+                                        <option value="">Option 1</option>
+                                        <option value="">Option 1</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Metros Ocupados</label>
+                                    <input type="text" class="form-control form-control-sm">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 mb-3 mt-5">
+                                <div class="row col-12 justify-content-around align-items-end">
+                                    <div class="col-12 col-md-6">
+                                        <div class="form-check float-left">
+                                            <label class="check-label">
+                                                <input type="checkbox" name="check"> <span class="label-text">Verificó</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Estatus</label>
+                                    <select name="" id="" class="form-control form-control-sm">
+                                        <option value="">Por Validar</option>
+                                        <option value="">Option 1</option>
+                                        <option value="">Option 1</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Estatus SIDEFI</label>
+                                    <select name="" id="" class="form-control form-control-sm">
+                                        <option value="">Por Transmitir</option>
+                                        <option value="">Option 1</option>
+                                        <option value="">Option 1</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" mb-3 d-flex justify-content-end">
                             
                         </div>
-
-
-                   
-                      
-                        <div class="  d-flex justify-content-end">
-                            <a class="btn btn-sm btn1 btn-danger" href="recibos-deposito-agregar.html" role="button"><i
-                                 class="fas fa-plus" style="color: white;"></i>
-                                Agregar</a>
-
+                        <div class=" mb-3 d-flex justify-content-end mt-3">
+                            <a class="btn btn-sm btn1 btn-danger mr-2" href="#" role="button"><i
+                                    class="fas fa-save"></i>
+                                Guardar</a>
+                            <a class="btn btn-sm btn1 btn-dark mr-2" href="#" role="button"><i
+                                    class="fas fa-sync-alt" style="color: #fff;"></i>
+                                Actualizar Tabla</a>
                         </div>
-
-                         <!--table-->
-                        <div class="row mt-3">
-                            <div class="col-sm-12" style="overflow-x:auto">
+                        <div class="row">
+                            <div class="col-12 col-md-12 mb-3">
+                                <div class="row col-12 justify-content-around align-items-end">
+                                    <div class="col-12 col-md-6">
+                                        <div class="form-check">
+                                            <label class="check-label">
+                                                <input type="checkbox" name="check"> <span class="label-text">Actualizar Tabla después de cada Alta</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--table-->
+                        <div class="row">
+                            <div class="col-sm-12 mt-3" style="overflow-x:auto">
                                 <table id="example" class="table table-sm table-hover nowrap dataTable no-footer dtr-inline collapsed ui-selectable" style=" text-align: center; " role="grid">
                                     <thead>
-                                        <tr role="row" class="ui-selectee d-none">
+                                        <tr role="row" class="ui-selectee">
                                             <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: 120px; text-align: center;     " aria-label="Last name: activate to sort column ascending">Acciones
                                             </th>
-                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: auto; text-align: center;     " aria-label="Last name: activate to sort column ascending">Número
+                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: auto; text-align: center;     " aria-label="Last name: activate to sort column ascending">Recibo
                                             </th>
                                             <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: auto; text-align: center;   " aria-label="Position: activate to sort column ascending">Cliente</th>
-                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: auto; text-align: center;    " Iniciio <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: auto; text-align: center;    " aria-label="Office: activate to sort column ascending">Inicio de Servicios</th>
-                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: auto; text-align: center;    " aria-label="Office: activate to sort column ascending">Tipo de Bodega</th>
-                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: auto; text-align: center;    " aria-label="Office: activate to sort column ascending">Descripción de la Mercancía</th>
+                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: auto; text-align: center;    " Iniciio <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: auto; text-align: center;    " aria-label="Office: activate to sort column ascending">Bodega</th>
+                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: auto; text-align: center;    " aria-label="Office: activate to sort column ascending">Convenio</th>
+                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: auto; text-align: center;    " aria-label="Office: activate to sort column ascending">Expedición</th>
+                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: auto; text-align: center;    " aria-label="Office: activate to sort column ascending">Pedimento</th>
                                             <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: auto; text-align: center;    " aria-label="Office: activate to sort column ascending">Estatus</th>
-                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: auto; text-align: center;    " aria-label="Office: activate to sort column ascending">Estatus Facturación</th>
+                                            <th class="" tabindex="0" aria-controls="example" rowspan="1" colspan="1" style="width: auto; text-align: center;    " aria-label="Office: activate to sort column ascending">Inicio de Servicio</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr role="row" class="odd ui-selectee">
                                             <td>
-                                                <button class="btn btn-action btn-alta btn-sm" data-toggle="tooltip" data-placement="top" title="Partidas"><i class="fas fa-archway"></i></button>
-                                                <a href="" class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip"
-                                                    data-placement="top" title="Validar" style="color:#000"><i class="fas fa-check-double"></i></a>
-                                                <button class="btn btn-action btn-alta btn-sm" data-toggle="tooltip" data-placement="top" title="Validar con Autorización"><i class="fas fa-check-square"></i></button>
-                                                <button class="btn btn-action btn-alta btn-sm" data-toggle="tooltip" data-placement="top" title="Imprimir"><i class="fas fa-print"></i></button>
-                                                <button class="btn btn-action btn-alta btn-sm" data-toggle="tooltip" data-placement="top" title="Modo Extemporánea"><i class="fas fa-user-secret"></i></button>
-                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip" data-placement="top" title="Eliminar"><i class="fas fa-trash-alt"></i></button></td>
-                                            
+                                                <button class="btn btn-action btn-borrar btn-sm" data-toggle="tooltip" data-placement="top" title="Eliminar"><i
+                                                     class="fas fa-trash-alt"></i></button>
+                                            </td>
+                                            <td>73362</td>
+                                            <td>ACERO</td>
+                                            <td>820-01</td>
+                                            <td>820</td>
+                                            <td>06/09/2018</td>
+                                            <td></td>
+                                            <td>VIGENTE</td>
+                                            <td>01/09/2015</td>
                                         </tr>
-                                        <tr class="no-records-found"><td colspan="7">No Exísten Recibos de Deposito con los criterios Indicados</td></tr>
+                                    </tbody>
                                 </table>
                             </div>
+                        </div>
+                        <!--Paginador-->
+                        <div class="row ">
+                            <div class="col-sm-12 col-md-6 mt-3">
+                                <div class="pagination-nav-info" id="   ">
+                                    <ul class="pagination">
+                                        <li class="paginate_button page-item previous disabled" id="example_previous"><a href="#" aria-controls="example"
+                                             data-dt-idx="0" tabindex="0" class="page-link">Anterior</a></li>
+                                        <li class="paginate_button page-item active"><a href="#" aria-controls="example" data-dt-idx="1" tabindex="0"
+                                             class="page-link">1</a></li>
+                                        <li class="paginate_button page-item "><a href="#" aria-controls="example" data-dt-idx="2" tabindex="0" class="page-link">2</a></li>
+                                        <li class="paginate_button page-item "><a href="#" aria-controls="example" data-dt-idx="3" tabindex="0" class="page-link">3</a></li>
+                                        <li class="paginate_button page-item "><a href="#" aria-controls="example" data-dt-idx="4" tabindex="0" class="page-link">4</a></li>
+                                        <li class="paginate_button page-item "><a href="#" aria-controls="example" data-dt-idx="5" tabindex="0" class="page-link">5</a></li>
+                                        <li class="paginate_button page-item "><a href="#" aria-controls="example" data-dt-idx="6" tabindex="0" class="page-link">6</a></li>
+                                        <li class="paginate_button page-item next" id="example_next"><a href="#" aria-controls="example" data-dt-idx="7"
+                                             tabindex="0" class="page-link">Siguiente</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
 </body>
 
 </html>
